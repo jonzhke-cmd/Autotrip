@@ -131,7 +131,7 @@ export default function Home() {
 
           <div className="grid gap-8 md:grid-cols-3">
             {fleet.slice(0, 3).map((car) => (
-              <div key={car.id} className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
+              <div key={car.name} className="bg-white rounded-3xl overflow-hidden shadow-lg hover:shadow-2xl transition">
                 <div className="relative h-64">
                   <Image
                     src={car.image}
@@ -144,7 +144,7 @@ export default function Home() {
                   <div className="flex justify-between items-start mb-4">
                     <div>
                       <h3 className="text-2xl font-bold text-slate-900">{car.name}</h3>
-                      <p className="text-slate-500">{car.category}</p>
+                      <p className="text-slate-500">{car.type}</p>
                     </div>
                     <div className="text-right">
                       <div className="text-3xl font-bold text-primary">${car.price}/day</div>

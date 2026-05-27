@@ -1,6 +1,6 @@
-import Link from "next/link";
 import Image from "next/image";
-import { Mail, Phone, MapPin, Clock3, MessageSquare } from "lucide-react";
+import { Mail, Phone, MapPin } from "lucide-react";
+import ContactForm from "@/components/ContactForm";
 
 import type { Metadata } from "next";
 
@@ -79,20 +79,7 @@ export default function ContactPage() {
             </div>
           </div>
 
-          <div className="rounded-[2.5rem] bg-slate-50 p-8 shadow-sm">
-            <h3 className="text-2xl font-semibold text-slate-950">Send an Enquiry</h3>
-            <form className="mt-6 space-y-4">
-              <div className="grid gap-4 sm:grid-cols-2">
-                <input type="text" placeholder="Full Name" className="rounded-2xl border border-slate-200 bg-white px-5 py-3 focus:border-orange-500 focus:outline-none" />
-                <input type="email" placeholder="Email Address" className="rounded-2xl border border-slate-200 bg-white px-5 py-3 focus:border-orange-500 focus:outline-none" />
-              </div>
-              <input type="text" placeholder="Subject" className="w-full rounded-2xl border border-slate-200 bg-white px-5 py-3 focus:border-orange-500 focus:outline-none" />
-              <textarea placeholder="How can we help?" rows={4} className="w-full rounded-2xl border border-slate-200 bg-white px-5 py-3 focus:border-orange-500 focus:outline-none"></textarea>
-              <button className="flex w-full items-center justify-center gap-2 rounded-full bg-slate-950 px-5 py-4 font-semibold text-white transition hover:bg-slate-800">
-                <MessageSquare className="h-4 w-4" /> Send Message
-              </button>
-            </form>
-          </div>
+          <ContactForm />
         </div>
       </section>
     </main>

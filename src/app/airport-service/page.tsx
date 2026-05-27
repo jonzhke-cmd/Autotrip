@@ -1,6 +1,6 @@
 import Link from "next/link";
 import Image from "next/image";
-import { ArrowRight, Plane, Clock3, MapPin, Bus, CheckCircle2 } from "lucide-react";
+import { ArrowRight, Plane, Clock3, MapPin, Bus, CheckCircle2, PhoneCall } from "lucide-react";
 
 const steps = [
   {
@@ -26,8 +26,6 @@ const terminals = [
   { name: "Terminal 2", airline: "Alliance, Tigerair", stand: "Zone A" },
   { name: "Terminal 3 & 4", airline: "Jetstar, Qantas", stand: "Zone C" },
 ];
-
-import { PhoneCall } from "lucide-react";
 
 import type { Metadata } from "next";
 

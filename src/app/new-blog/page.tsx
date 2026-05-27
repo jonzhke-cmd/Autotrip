@@ -15,7 +15,7 @@ export default function NewBlogPage() {
     },
     // APRIL 11, 2026
     {
-      slug: "swan-valley-day-trip-perth-2026",
+      slug: "swan-valley-wine-food-trail-perth",
       title: "🦢 Swan Valley Wine & Food Trail: Perth's Best Day Trip in 2026",
       date: "April 11, 2026",
       excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better.",

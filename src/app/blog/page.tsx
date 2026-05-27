@@ -16,7 +16,8 @@ const articles = [
     excerpt: "Markets since 1897, a UNESCO World Heritage prison, the craft brewery that changed Australian beer, and the freshest fish and chips in WA. Fremantle is 30 minutes south of Perth Airport — and most visitors fly straight past it.",
     date: "April 17, 2026",
     category: "Day Trips",
-    image: "https://images.unsplash.com/photo-1589556264800-08ae9e6cdcb8?w=800&auto=format&fit=crop&q=80",
+    // Fremantle harbour / fishing boat jetty
+    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "valley-of-the-giants-denmark-wa-2026",
@@ -24,6 +25,7 @@ const articles = [
     excerpt: "Walk 40 metres above 400-year-old tingle trees in Walpole's Valley of the Giants, swim at the stunning Greens Pool in Denmark, and eat at one of WA's best regional restaurants. This Great Southern road trip is 5.5 hours from Perth and worth every kilometre.",
     date: "April 16, 2026",
     category: "Great Southern Road Trips",
+    // Tall ancient forest canopy — representative of Valley of the Giants tingle trees
     image: "https://images.unsplash.com/photo-1448375240586-882707db888b?w=800&auto=format&fit=crop&q=80",
   },
   {
@@ -32,7 +34,8 @@ const articles = [
     excerpt: "Rottnest Island is Perth's island paradise just 30 minutes by ferry. Complete guide to quokka selfies, pristine beaches, bike trails, and making the most of your day trip from Perth — including why you need a car to get to the ferry terminal.",
     date: "April 15, 2026",
     category: "Island Getaways",
-    image: "https://images.unsplash.com/photo-1589552950456-75eeaf5c5a30?w=800&auto=format&fit=crop&q=80",
+    // Tropical island with turquoise waters — Rottnest Island style
+    image: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "ningaloo-reef-whale-shark-exmouth-2026",
@@ -40,7 +43,8 @@ const articles = [
     excerpt: "April to July is whale shark season at Ningaloo Reef — and swimming with the world's largest fish is every bit as mind-blowing as TikTok makes it look. Here's your complete guide to driving from Perth to Exmouth in 2026.",
     date: "April 14, 2026",
     category: "Coral Coast Road Trips",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&auto=format&fit=crop&q=80",
+    // Colourful coral reef underwater — Ningaloo Reef
+    image: "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "kalbarri-national-park-road-trip-2026",
@@ -48,7 +52,8 @@ const articles = [
     excerpt: "Stand on the Kalbarri Skywalk 100m above the Murchison River gorge. Nature's Window, Z-Bend, dramatic coastal cliffs — this is WA's most dramatic road trip and it's absolutely blowing up on TikTok in 2026.",
     date: "April 13, 2026",
     category: "WA Gorge Road Trips",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80",
+    // Red rock canyon/gorge — Kalbarri Murchison River gorge
+    image: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "perth-to-monkey-mia-shark-bay-2026",
@@ -56,7 +61,8 @@ const articles = [
     excerpt: "Wild dolphins that walk themselves out of the ocean to meet you. Shell Beach made entirely of tiny white shells. Stromatolites — the oldest living things on Earth. Shark Bay is WA's most extraordinary road trip, and it's blowing up on TikTok right now.",
     date: "April 11, 2026",
     category: "Coral Coast Road Trips",
-    image: "https://images.unsplash.com/photo-1559827260-dc66d52bef19?w=800&auto=format&fit=crop&q=80",
+    // Dolphins swimming — Monkey Mia wild dolphins
+    image: "https://images.unsplash.com/photo-1568430462989-44163eb1752f?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "swan-valley-wine-food-trail-perth",
@@ -64,6 +70,7 @@ const articles = [
     excerpt: "Just 25 minutes from Perth Airport, the Swan Valley is WA's oldest wine region — and in autumn 2026, it has never looked (or tasted) better. Artisan chocolates, craft breweries, boutique wineries, and stunning autumn colours.",
     date: "April 11, 2026",
     category: "Day Trips",
+    // Vineyard rows at golden hour — Swan Valley wine region
     image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80",
   },
   {
@@ -72,7 +79,8 @@ const articles = [
     excerpt: "Swim with wild sea lions, sandboard the world's tallest coastal dunes, and eat lobster straight off the boat. The Turquoise Coast is WA's best-kept secret — and it's only 3 hours from Perth Airport.",
     date: "April 9, 2026",
     category: "Turquoise Coast Road Trips",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    // Coastal sand dunes — Jurien Bay / Lancelin dunes
+    image: "https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "perth-to-esperance-road-trip-2026",
@@ -80,7 +88,8 @@ const articles = [
     excerpt: "Lucky Bay has the whitest sand in Australia, kangaroos that sunbathe on the beach, and water so turquoise it looks photoshopped. This is WA's most underrated drive — and travellers are finally discovering it.",
     date: "April 8, 2026",
     category: "Road Trips",
-    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80",
+    // Pristine white sand beach with turquoise water — Lucky Bay / Esperance
+    image: "https://images.unsplash.com/photo-1506929562872-bb421503ef21?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "perth-airport-car-rental-tips-2026",
