@@ -11,6 +11,30 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "kings-park-perth-visitor-guide-2026",
+    title: "Kings Park Perth 2026: The Complete Visitor Guide",
+    excerpt: "One of the largest inner-city parks in the world, free every day, with panoramic views of the Perth skyline and Swan River. Wildflower season, the Federation Walkway, best picnic spots, and practical tips.",
+    date: "May 27, 2026",
+    category: "Perth Attractions",
+    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    slug: "cottesloe-beach-perth-guide-2026",
+    title: "Cottesloe Beach Perth 2026: Everything You Need to Know",
+    excerpt: "Perth's most iconic beach — calm turquoise water inside a natural reef, world-class Indian Ocean sunsets, and dining that punches well above its weight. Includes safety, parking, best time to visit, and the beach comparison guide.",
+    date: "May 27, 2026",
+    category: "Perth Beaches",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    slug: "swan-valley-day-trip-perth-2026",
+    title: "Swan Valley Day Trip from Perth 2026: The Complete Guide",
+    excerpt: "WA's oldest wine region is 25 minutes from Perth Airport. Artisan chocolate, craft beer, boutique wineries, and a food trail in a single day. Includes the Swan Valley vs Margaret River comparison.",
+    date: "May 27, 2026",
+    category: "Day Trips",
+    image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "fremantle-day-trip-from-perth-2026",
     title: "Fremantle: Perth's Most Soulful Day Trip Is 30 Minutes From the Airport",
     excerpt: "Markets since 1897, a UNESCO World Heritage prison, the craft brewery that changed Australian beer, and the freshest fish and chips in WA. Fremantle is 30 minutes south of Perth Airport — and most visitors fly straight past it.",
