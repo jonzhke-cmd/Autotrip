@@ -11,6 +11,30 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "mandurah-day-trip-from-perth-2026",
+    title: "Mandurah Day Trip from Perth 2026: Dolphins, Crabs & Canal Cruises",
+    excerpt: "Wild dolphins in the estuary, blue manna crabs fresh off the jetty, canal cruises, and an ocean beach around the corner — Mandurah is Perth\'s best-kept day trip secret, just 75 minutes south of the city.",
+    date: "May 28, 2026",
+    category: "Day Trips",
+    image: "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    slug: "rockingham-penguin-island-dolphins-perth-2026",
+    title: "Rockingham & Penguin Island 2026: Swim With Wild Dolphins and Meet Australia\'s Cheekiest Penguins",
+    excerpt: "Swim with wild bottlenose dolphins in Shoalwater Bay Marine Park, visit Australia\'s most accessible little penguin colony on Penguin Island, and snorkel a protected marine park — all 45 minutes south of Perth Airport.",
+    date: "May 29, 2026",
+    category: "Wildlife Day Trips",
+    image: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&auto=format&fit=crop&q=80",
+  },
+  {
+    slug: "karijini-national-park-gorges-2026",
+    title: "Karijini National Park 2026: Ancient Gorges, Hidden Waterholes & The Road Trip Every WA Visitor Should Do",
+    excerpt: "Karijini is WA\'s most spectacular secret — 2.5-billion-year-old gorges, waterfall-fed swimming holes, the iconic Weano and Hancock gorges, and the Karijini Eco Retreat. The complete 2026 road trip guide.",
+    date: "May 30, 2026",
+    category: "Pilbara Road Trips",
+    image: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "kings-park-perth-visitor-guide-2026",
     title: "Kings Park Perth 2026: The Complete Visitor Guide",
     excerpt: "One of the largest inner-city parks in the world, free every day, with panoramic views of the Perth skyline and Swan River. Wildflower season, the Federation Walkway, best picnic spots, and practical tips.",
