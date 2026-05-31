@@ -212,7 +212,7 @@ export default function BlogLanding() {
           {articles.map((article) => (
             <article
               key={article.slug}
-              className="group flex flex-col items-start justify-between"
+              className="group relative flex flex-col items-start justify-between"
             >
               <div className="relative w-full aspect-[4/3] rounded-3xl overflow-hidden bg-slate-100 mb-6">
                 <Image
