@@ -58,7 +58,7 @@ export default function PerthToMonkeyMiaSharkBay2026() {
         {/* Hero Image */}
         <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden mb-12">
           <Image
-            src="https://images.unsplash.com/photo-1559827260-dc66d52bef19?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            src="/shark-bay-monkey-mia.jpg"
             alt="Wild dolphins approaching the shore at Monkey Mia, Shark Bay World Heritage Area, Western Australia"
             fill
             className="object-cover"
