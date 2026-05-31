@@ -54,7 +54,7 @@ export default function MandurahDayTripBlogPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=1400&q=80"
+            src="/mandurah-canal-cruise.jpg"
             alt="Mandurah estuary waterways and canals, Western Australia"
             fill
             className="object-cover"

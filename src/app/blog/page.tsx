@@ -16,7 +16,7 @@ const articles = [
     excerpt: "Wild dolphins in the estuary, blue manna crabs fresh off the jetty, canal cruises, and an ocean beach around the corner — Mandurah is Perth\'s best-kept day trip secret, just 75 minutes south of the city.",
     date: "May 28, 2026",
     category: "Day Trips",
-    image: "https://images.unsplash.com/photo-1559494007-9f5847c49d94?w=800&auto=format&fit=crop&q=80",
+    image: "/mandurah-canal-cruise.jpg",
   },
   {
     slug: "rockingham-penguin-island-dolphins-perth-2026",
