@@ -54,7 +54,7 @@ export default function SwanValleyDayTripBlogPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=1400&q=80"
+            src="/swan-valley-vineyard.jpg"
             alt="Swan Valley vineyard rows at golden hour, Western Australia wine region"
             fill
             className="object-cover"

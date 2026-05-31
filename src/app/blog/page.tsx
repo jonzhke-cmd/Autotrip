@@ -56,7 +56,7 @@ const articles = [
     excerpt: "WA's oldest wine region is 25 minutes from Perth Airport. Artisan chocolate, craft beer, boutique wineries, and a food trail in a single day. Includes the Swan Valley vs Margaret River comparison.",
     date: "May 27, 2026",
     category: "Day Trips",
-    image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80",
+    image: "/swan-valley-vineyard.jpg",
   },
   {
     slug: "fremantle-day-trip-from-perth-2026",
