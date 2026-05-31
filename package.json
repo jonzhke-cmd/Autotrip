@@ -15,7 +15,7 @@
     "@types/react-dom": "19.0.3",
     "autoprefixer": "^10.4.20",
     "lucide-react": "^0.478.0",
-    "next": "15.2.4",
+    "next": "^15.5.18",
     "postcss": "^8.4.38",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
