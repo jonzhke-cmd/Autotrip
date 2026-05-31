@@ -83,7 +83,7 @@ const articles = [
     date: "April 15, 2026",
     category: "Island Getaways",
     // Tropical island with turquoise waters — Rottnest Island style
-    image: "https://images.unsplash.com/photo-1505118380757-91f5f5632de0?w=800&auto=format&fit=crop&q=80",
+    image: "/rottnest-island-quokka.jpg",
   },
   {
     slug: "ningaloo-reef-whale-shark-exmouth-2026",

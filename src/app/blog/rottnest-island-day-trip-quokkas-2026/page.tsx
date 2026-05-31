@@ -58,7 +58,7 @@ export default function RottnestIslandDayTripQuokkas2026() {
         {/* Hero Image */}
         <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden mb-12">
           <Image
-            src="https://images.unsplash.com/photo-1589552950456-75eeaf5c5a30?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            src="/rottnest-island-quokka.jpg"
             alt="Quokka smiling on Rottnest Island, Western Australia — the world's happiest animal waiting for your visit"
             fill
             className="object-cover"
