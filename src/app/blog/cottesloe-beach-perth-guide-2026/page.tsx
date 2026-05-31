@@ -54,7 +54,7 @@ export default function CottesloeBeachGuideBlogPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=1400&q=80"
+            src="/cottesloe-beach-perth.jpg"
             alt="Cottesloe Beach Perth turquoise water and white sand at sunset"
             fill
             className="object-cover"

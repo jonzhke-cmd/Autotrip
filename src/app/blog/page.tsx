@@ -48,7 +48,7 @@ const articles = [
     excerpt: "Perth's most iconic beach — calm turquoise water inside a natural reef, world-class Indian Ocean sunsets, and dining that punches well above its weight. Includes safety, parking, best time to visit, and the beach comparison guide.",
     date: "May 27, 2026",
     category: "Perth Beaches",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+    image: "/cottesloe-beach-perth.jpg",
   },
   {
     slug: "swan-valley-day-trip-perth-2026",
