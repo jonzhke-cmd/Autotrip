@@ -110,7 +110,7 @@ const articles = [
     date: "April 11, 2026",
     category: "Coral Coast Road Trips",
     // Dolphins swimming — Monkey Mia wild dolphins
-    image: "/shark-bay-monkey-mia.jpg",
+    image: "/monkey-mia-dolphins.jpg",
   },
   {
     slug: "swan-valley-wine-food-trail-perth",
