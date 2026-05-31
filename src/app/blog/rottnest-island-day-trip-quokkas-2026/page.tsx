@@ -1,7 +1,7 @@
 import { Metadata } from "next";
 import Link from "next/link";
 import Image from "next/image";
-import { Calendar, MapPin, Car, Clock, ChevronRight, Bike, Ferry } from "lucide-react";
+import { Calendar, MapPin, Car, Clock, ChevronRight, Bike, Ship } from "lucide-react";
 
 export const dynamic = 'force-dynamic';
 export const revalidate = 0;
@@ -41,7 +41,7 @@ export default function RottnestIslandDayTripQuokkas2026() {
               <time>April 15, 2026</time>
             </div>
             <div className="flex items-center gap-2">
-              <Ferry className="h-4 w-4" />
+              <Ship className="h-4 w-4" />
               <span>30 min ferry from Fremantle</span>
             </div>
             <div className="flex items-center gap-2">
