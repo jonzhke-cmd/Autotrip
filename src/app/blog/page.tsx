@@ -92,7 +92,7 @@ const articles = [
     date: "April 14, 2026",
     category: "Coral Coast Road Trips",
     // Colourful coral reef underwater — Ningaloo Reef
-    image: "https://images.unsplash.com/photo-1583212292454-1fe6229603b7?w=800&auto=format&fit=crop&q=80",
+    image: "/ningaloo-reef-whale-shark.jpg",
   },
   {
     slug: "kalbarri-national-park-road-trip-2026",
