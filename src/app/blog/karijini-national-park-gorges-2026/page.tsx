@@ -54,7 +54,7 @@ export default function KarijiniNationalParkBlogPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1529987405859-1f49e5624d86?w=1400&q=80"
+            src="/karijini-national-park.jpg"
             alt="Karijini National Park gorge with red rock walls and clear turquoise water pools, Pilbara Western Australia"
             fill
             className="object-cover"

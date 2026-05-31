@@ -24,7 +24,7 @@ const articles = [
     excerpt: "Swim with wild bottlenose dolphins in Shoalwater Bay Marine Park, visit Australia\'s most accessible little penguin colony on Penguin Island, and snorkel a protected marine park — all 45 minutes south of Perth Airport.",
     date: "May 29, 2026",
     category: "Wildlife Day Trips",
-    image: "https://images.unsplash.com/photo-1564349683136-77e08dba1ef7?w=800&auto=format&fit=crop&q=80",
+    image: "/rockingham-penguin-island.jpg",
   },
   {
     slug: "karijini-national-park-gorges-2026",
@@ -32,7 +32,7 @@ const articles = [
     excerpt: "Karijini is WA\'s most spectacular secret — 2.5-billion-year-old gorges, waterfall-fed swimming holes, the iconic Weano and Hancock gorges, and the Karijini Eco Retreat. The complete 2026 road trip guide.",
     date: "May 30, 2026",
     category: "Pilbara Road Trips",
-    image: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=800&auto=format&fit=crop&q=80",
+    image: "/karijini-national-park.jpg",
   },
   {
     slug: "kings-park-perth-visitor-guide-2026",

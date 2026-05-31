@@ -54,7 +54,7 @@ export default function RockinghamPenguinIslandBlogPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1400&q=80"
+            src="/rockingham-penguin-island.jpg"
             alt="Wild bottlenose dolphins in clear Indian Ocean water near Rockingham, Western Australia"
             fill
             className="object-cover"
