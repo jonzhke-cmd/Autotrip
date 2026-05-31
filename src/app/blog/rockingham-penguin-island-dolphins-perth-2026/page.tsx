@@ -34,14 +34,28 @@ export default function RockinghamPenguinIslandBlogPost() {
             Rockingham &amp; Penguin Island 2026: Swim with Wild Dolphins Near Perth
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed">
-            Forty-five minutes south of Perth, Rockingham is home to the Shoalwater Islands Marine Park — where you can swim with wild bottlenose dolphins, see Australia&apos;s smallest penguin colony up close, and explore a stunning stretch of Indian Ocean coastline that most Perth visitors completely miss.
+            Forty-five minutes south of Perth, Rockingham packs in two of the most unusual wildlife experiences you can have near a major Australian city: swimming with wild dolphins in the open ocean, and visiting Australia&apos;s most accessible little penguin colony. In the same day. Here&apos;s how.
           </p>
         </header>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
+          {[
+            { label: 'From airport', value: '45 min' },
+            { label: 'Dolphin swim', value: '~$195/adult' },
+            { label: 'Penguin ferry', value: '~$10 return' },
+            { label: 'Ferry season', value: 'Sep – May' },
+          ].map((fact) => (
+            <div key={fact.label} className="bg-slate-50 rounded-2xl p-4 text-center">
+              <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">{fact.label}</div>
+              <div className="text-base font-black text-slate-900">{fact.value}</div>
+            </div>
+          ))}
+        </div>
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
             src="https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=1400&q=80"
-            alt="Wild bottlenose dolphins swimming in clear Indian Ocean water near Rockingham, Western Australia"
+            alt="Wild bottlenose dolphins in clear Indian Ocean water near Rockingham, Western Australia"
             fill
             className="object-cover"
             priority
@@ -52,69 +66,106 @@ export default function RockinghamPenguinIslandBlogPost() {
         <div className="prose prose-lg prose-slate max-w-none">
 
           <p>
-            Rockingham doesn&apos;t have the fame of Fremantle or the scenery of the Pinnacles, but for wildlife encounters it beats almost everything else within a day&apos;s drive of Perth. The Shoalwater Islands Marine Park, just offshore, protects a resident population of wild bottlenose dolphins that you can legally swim with — a genuine open-water experience in the Indian Ocean, not a performance pool.
+            Rockingham doesn&apos;t get the same attention as Fremantle or Rottnest, and that&apos;s a genuine oversight. For wildlife encounters close to Perth, it beats almost everything else in the region. The Shoalwater Islands Marine Park — just offshore — protects a resident population of wild bottlenose dolphins that you can legally swim with in the open ocean. Not a theme park, not a performance enclosure. The Indian Ocean, wild dolphins, and you.
           </p>
           <p>
-            Penguin Island, reachable by a 5-minute ferry from Rockingham, is home to the largest colony of little penguins (fairy penguins) on the WA mainland coast. Combine both in a single day trip and you have one of the most unusual wildlife itineraries available within driving distance of Perth Airport.
+            Add a 5-minute ferry ride to Penguin Island to see Australia&apos;s smallest penguin species up close, and you&apos;ve got one of the more remarkable day trips available within driving distance of Perth Airport.
           </p>
 
-          <h2>Swimming with Wild Dolphins at Rockingham</h2>
+          <div className="not-prose my-8 flex gap-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-2xl p-5">
+            <div className="text-2xl">🐬</div>
+            <div>
+              <div className="font-black text-slate-900 mb-1">What &ldquo;swimming with wild dolphins&rdquo; actually means</div>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                This is not a captive experience. Rockingham Wild Encounters takes you out by boat into the Shoalwater Bay Marine Park and you enter the water in the open ocean. The resident dolphin pod (around 200 animals) has been carefully habituated to respectful human interaction over decades — they choose whether to approach. They almost always do. It&apos;s genuinely extraordinary, and nothing like the pool-based experiences you&apos;ll see elsewhere.
+              </p>
+            </div>
+          </div>
+
+          <h2>The wild dolphin swim</h2>
           <p>
-            Rockingham Wild Encounters operates the only licensed wild dolphin swim experience in the Perth region. Unlike captive dolphin experiences, this is an open-ocean encounter — you enter the water from a boat in the marine park and the dolphins choose whether to interact. They almost always do. The resident pod of around 200 bottlenose dolphins in Shoalwater Bay has been habituated to careful human interaction over decades, and encounters at close range are the norm rather than the exception.
+            <strong>Rockingham Wild Encounters</strong> operates the only licensed wild dolphin swim experience in the Perth region. Tours depart daily from Rockingham beach, run about 3.5 hours, and cost around $195 per adult. Snorkelling gear is provided. Minimum age for entering the water is 8 — younger children can watch from the boat, which is still genuinely exciting.
           </p>
           <p>
-            Tours run daily from Rockingham beach, last about 3.5 hours, and cost around $195 per adult. Snorkelling gear is provided. The minimum age is 8 for the water — younger children can observe from the boat. Bookings are essential, especially on weekends. This is one of those experiences that regularly appears on &ldquo;best things to do in Perth&rdquo; lists, and it consistently delivers.
+            Book well in advance — this sells out on weekends, often weeks ahead in summer. The Rockingham Wild Encounters website is the only booking source. There&apos;s no walk-in option for the dolphin swim.
           </p>
+
+          <div className="not-prose my-6 bg-amber-50 border-l-4 border-amber-400 rounded-r-2xl p-5">
+            <div className="text-2xl flex-shrink-0 inline">⚠️</div>
+            <div className="inline ml-3">
+              <div className="font-black text-slate-900 mb-1 inline"> Book this before anything else</div>
+              <p className="text-slate-700 text-sm leading-relaxed mt-1">
+                Seriously — if the dolphin swim is the reason you&apos;re coming to Rockingham, lock it in before you book your accommodation or flights. Weekend spots in summer disappear weeks in advance. Weekdays have more availability but book at least 3–4 days ahead.
+              </p>
+            </div>
+          </div>
 
           <h2>Penguin Island</h2>
           <p>
-            Penguin Island is a small, largely undeveloped island about 800 metres off the Rockingham foreshore. It&apos;s home to around 1,200 little penguins (the world&apos;s smallest penguin species, also called fairy penguins), as well as pelicans, sea eagles, and a diverse range of Indian Ocean seabirds.
+            Penguin Island is a small, largely undeveloped island about 800 metres off the Rockingham foreshore, home to around 1,200 little penguins — the world&apos;s smallest penguin species (they stand about 33 cm tall, which is to say, extremely small). They share the island with pelicans, sea eagles, and various Indian Ocean seabirds.
           </p>
           <p>
-            The <strong>Penguin Island Ferry</strong> runs from Mersey Point Jetty in Rockingham — the crossing takes 5 minutes and costs around $10 return. Once on the island, walking trails take you around the penguin colony area and through the low coastal scrub. The <strong>Penguin Island Discovery Centre</strong> has a small aquarium and penguin display, with feeding sessions at set times (typically 10:30 AM and 1:30 PM — check the current schedule). Penguins naturally moult and sometimes don&apos;t come ashore at predictable times, so wild sightings can&apos;t be guaranteed — the Discovery Centre provides a reliable backup.
-          </p>
-          <p>
-            Note: The ferry and island access operate on a seasonal schedule, typically closing or reducing hours in winter (June to August). In 2026 the service runs September through May — confirm current hours at penguinisland.com.au before visiting.
+            The <strong>Penguin Island Ferry</strong> departs from Mersey Point Jetty in Rockingham — 5-minute crossing, around $10 return. The <strong>Penguin Island Discovery Centre</strong> runs feeding sessions at set times (typically 10:30 AM and 1:30 PM — check current times at penguinisland.com.au). Wild penguins also come ashore, though this isn&apos;t guaranteed on any particular visit.
           </p>
 
-          <h2>The Shoalwater Islands Marine Park</h2>
+          <div className="not-prose my-6 bg-slate-50 rounded-2xl p-4">
+            <div className="font-bold text-slate-900 text-sm mb-1">What are &ldquo;little penguins&rdquo;? (Also called fairy penguins)</div>
+            <p className="text-slate-600 text-sm leading-relaxed">
+              <em>Eudyptula minor</em> is the world&apos;s smallest penguin species, found only in southern Australia and New Zealand. They&apos;re around 33 cm tall, weigh about 1 kg, and are bluish-grey on top with a white belly. They come ashore at dusk and spend their days at sea fishing. The Penguin Island colony is one of the most accessible in WA — you can see them up close at the Discovery Centre even if the wild ones don&apos;t cooperate.
+            </p>
+          </div>
+
           <p>
-            The marine park encompasses Penguin Island, Seal Island (home to a large Australian sea lion colony), and Rabbit Island, as well as the surrounding waters. The sea lions on Seal Island are visible from boats and occasionally from the Rockingham foreshore at low tide — ask the dolphin tour operators about current seal lion activity when you book.
-          </p>
-          <p>
-            The marine park waters are also excellent for snorkelling directly from Rockingham&apos;s beaches. The protected bay near Point Peron has calm, clear water with good reef fish life, and the extensive seagrass meadows attract green turtles — you&apos;re more likely to see one here than at most Perth-region beaches.
+            Important: the ferry and island run on a seasonal schedule, typically open September through May and reduced or closed in winter (June to August). Confirm current operating hours at penguinisland.com.au before your visit.
           </p>
 
-          <h2>Point Peron and the Rockingham Coastline</h2>
+          <h2>Point Peron and the Shoalwater Bay coastline</h2>
           <p>
-            The Point Peron headland, just south of Rockingham&apos;s main beach, offers some of the best coastal walking in the Perth south region. The limestone cliffs and clear Indian Ocean water below make for excellent photography, and on calm days the snorkelling off the point is outstanding — good coral coverage, fish life, and usually a calm, protected entry point.
+            The Point Peron headland, just south of Rockingham&apos;s main beach, offers excellent coastal walking — limestone cliffs, clear Indian Ocean water below, and outstanding snorkelling off the point on calm days. The marine park waters around Shoalwater Bay are also home to Australian sea lions on Seal Island (visible from boats and occasionally from shore at low tide) and green turtles in the seagrass meadows.
           </p>
           <p>
-            The beaches along the Rockingham foreshore — from Palm Beach to Shoalwater Bay — are consistently calm due to the offshore reef and island protection. This makes them ideal for swimming with children even on days when northern Perth beaches are rough.
-          </p>
-
-          <h2>Rockingham vs Rottnest Island: Which Should You Choose?</h2>
-          <p>
-            Both offer extraordinary wildlife encounters near Perth, but they serve different purposes. <strong>Rottnest Island</strong> requires a 90-minute ferry from Fremantle, costs significantly more, and offers quokka encounters, world-class snorkelling, and a full island exploration experience — worth a full day or overnight. <strong>Rockingham</strong> is 45 minutes from Perth Airport by car, costs less to access, and delivers wild dolphin swims and penguin encounters in a single focused day. If you have one free day and are based near the airport, Rockingham is the more accessible choice. If you have two days, do both.
+            The beaches along the Rockingham foreshore are consistently calm — protected by the offshore reef and islands — making them good for swimming with children even when northern Perth beaches are rough.
           </p>
 
-          <h2>Practical Tips for Rockingham</h2>
-          <p>
-            <strong>Book the dolphin swim in advance</strong> — tours are limited to small groups and sell out on weekends, sometimes weeks ahead in summer. The Rockingham Wild Encounters website is the only booking source.
-          </p>
-          <p>
-            <strong>Best time to visit:</strong> September to May, when the weather is warm, the ferry runs to Penguin Island, and the sea conditions are most favourable for the dolphin swims. Avoid June to August for Penguin Island (ferry closed), though the Point Peron coastal walk and Shoalwater Bay snorkelling remain worthwhile year-round.
-          </p>
-          <p>
-            <strong>Getting there:</strong> From Perth Airport, take the Kwinana Freeway south and exit at Rockingham Road — about 45 minutes in light traffic. There is no practical public transport option for the dolphin swim departures; a hire car is the right approach.
-          </p>
+          <div className="not-prose my-8 grid sm:grid-cols-2 gap-4">
+            {[
+              { q: 'Best time to visit Rockingham?', a: 'September to May. Warm weather, Penguin Island ferry running, and sea conditions best for the dolphin swim. Avoid June–August for Penguin Island (ferry often closed), though the coastal walk and snorkelling are fine year-round.' },
+              { q: 'Rockingham vs Rottnest Island?', a: 'Both are excellent. Rottnest needs a full day and is further/pricier (45 min ferry from Fremantle). Rockingham is closer and better for wildlife encounters specifically. Do both if you have time — they\'re completely different experiences.' },
+              { q: 'How do I get to Rockingham?', a: 'Kwinana Freeway south from Perth, exit at Rockingham Road — about 45 minutes from the city or airport. No practical public transport for the dolphin swim departure times; a hire car is the right approach.' },
+              { q: 'Is the dolphin swim suitable for non-swimmers?', a: 'The tour operators require basic swimming ability for the water portion. Life jackets are provided. The boat observation option is available for those not comfortable in open water — the dolphins often come close to the vessel.' },
+            ].map((item) => (
+              <div key={item.q} className="bg-white border border-slate-200 rounded-2xl p-5">
+                <div className="font-black text-slate-900 text-sm mb-2">{item.q}</div>
+                <p className="text-slate-600 text-sm leading-relaxed">{item.a}</p>
+              </div>
+            ))}
+          </div>
 
-          <h2>The Bottom Line</h2>
+          <div className="not-prose my-10 bg-slate-900 text-white rounded-[2rem] p-7">
+            <div className="font-black text-xl mb-5">Before you head to Rockingham</div>
+            <ul className="space-y-3">
+              {[
+                'Book the dolphin swim at rockinghamwildencounters.com.au before anything else — it sells out',
+                'Check penguinisland.com.au for current ferry and Discovery Centre hours before your visit',
+                'Wear or bring a rash vest — the dolphin swim is open ocean and sun exposure is significant',
+                'Bring water shoes or old trainers for Point Peron rock scrambling',
+                'The ferry to Penguin Island stops running in winter (June–August) — plan accordingly',
+                'Morning departures for the dolphin swim have the calmest sea conditions on most days',
+              ].map((tip) => (
+                <li key={tip} className="flex items-start gap-3 text-sm leading-relaxed text-slate-300">
+                  <span className="text-blue-400 mt-0.5 flex-shrink-0">✓</span>
+                  {tip}
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          <h2>The bottom line</h2>
           <p>
-            Rockingham and Penguin Island offer two of the most unusual wildlife experiences available within a short drive of Perth — swimming with wild dolphins in the open Indian Ocean, and seeing a fairy penguin colony up close on a small island accessible by ferry. Neither requires a full day trip to WA&apos;s more remote regions, and neither requires booking accommodation. It&apos;s an excellent day trip for visitors who want genuine wildlife encounters over manufactured ones.
+            Rockingham and Penguin Island offer two wildlife experiences that you can&apos;t get at most places within a short drive of a major city — swimming with wild dolphins in open ocean, and seeing the world&apos;s smallest penguins on a small island a few hundred metres offshore. Neither requires overnight accommodation, and both are legitimately extraordinary.
           </p>
           <p>
-            From Perth Airport, it&apos;s 45 minutes south on the Kwinana Freeway. Book the dolphin swim before you leave home, pick up a hire car at AutoTrip, and head south.
+            From Perth Airport, it&apos;s 45 minutes south down the Kwinana Freeway. Book the dolphin swim in advance, pick up a hire car at AutoTrip, and head south.
           </p>
 
         </div>
@@ -124,10 +175,7 @@ export default function RockinghamPenguinIslandBlogPost() {
           <p className="text-slate-600 mb-6">
             Swim with wild dolphins and see fairy penguins in a single day trip — all within 45 minutes of picking up your hire car at AutoTrip Perth Airport. Free 24/7 shuttle from all terminals.
           </p>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-full hover:bg-primary/90 transition"
-          >
+          <Link href="/" className="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-full hover:bg-primary/90 transition">
             Book Your Hire Car at Perth Airport →
           </Link>
         </div>

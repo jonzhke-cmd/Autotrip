@@ -34,9 +34,23 @@ export default function MandurahDayTripBlogPost() {
             Mandurah Day Trip from Perth 2026: Dolphins, Crabs &amp; Canal Cruises
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed">
-            Seventy-five minutes south of Perth on a straight freeway, Mandurah sits where the Peel-Harvey Estuary meets the Indian Ocean. Wild dolphins, blue manna crabs, the largest residential canal network in the southern hemisphere, and a foreshore that most Perth visitors never discover.
+            Most Perth visitors head to Fremantle or Rottnest and miss this completely. Seventy-five minutes south of the city, Mandurah has wild dolphins in the estuary, fresh blue manna crabs on the foreshore, and canal waterways that genuinely look like they shouldn&apos;t exist in Australia. Here&apos;s why it&apos;s worth the drive.
           </p>
         </header>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
+          {[
+            { label: 'From Perth', value: '75 min drive' },
+            { label: 'Dolphins', value: '100+ residents' },
+            { label: 'Crab season', value: 'Nov – Apr' },
+            { label: 'Canal network', value: "Southern hemisphere's largest" },
+          ].map((fact) => (
+            <div key={fact.label} className="bg-slate-50 rounded-2xl p-4 text-center">
+              <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">{fact.label}</div>
+              <div className="text-base font-black text-slate-900">{fact.value}</div>
+            </div>
+          ))}
+        </div>
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
@@ -52,64 +66,88 @@ export default function MandurahDayTripBlogPost() {
         <div className="prose prose-lg prose-slate max-w-none">
 
           <p>
-            Most visitors fly into Perth and make a beeline for Fremantle or Rottnest. The smart ones head 75 minutes south to Mandurah — a city built around a stunning estuary teeming with dolphins, crabs, and pelicans, with an ocean beach around the corner and a café strip that punches well above its weight.
+            Here&apos;s the thing about Mandurah: it&apos;s technically WA&apos;s second-largest city, but it doesn&apos;t feel like one. It feels like a relaxed waterfront town where the main event on any given morning is watching a pod of dolphins chase fish through the estuary while you drink coffee on the foreshore. That&apos;s not a tourism brochure line — it&apos;s genuinely what happens here.
           </p>
           <p>
-            Mandurah is WA&apos;s second-largest city, but it doesn&apos;t feel like one. It feels like a relaxed waterfront town where the morning&apos;s main event is watching dolphins chase fish in the estuary while you drink coffee. In 2026 it&apos;s one of the best-value day trips in the Perth region — and it&apos;s been consistently underrated by visitors for years.
-          </p>
-
-          <h2>The Mandurah Estuary and Wild Dolphins</h2>
-          <p>
-            The Peel-Harvey Estuary is one of the largest estuaries in southern Australia — a shallow, protected waterway home to a resident pod of over 100 bottlenose dolphins. These are wild dolphins in their natural habitat, and you don&apos;t need to book a cruise to see them. Walk along the foreshore boardwalk at sunrise or sunset and they regularly surface within metres of the walkway.
-          </p>
-          <p>
-            If you want guaranteed close encounters, dolphin and canal cruises depart from the main town jetty daily — around $30 per adult for 90 minutes. The boats are purpose-built for wildlife encounters and on most departures you&apos;ll see dolphins within the first 20 minutes.
+            The drive south from Perth is 75 kilometres of mostly motorway (the Kwinana Freeway — no tolls, no confusing navigation, just head south). From Perth Airport you&apos;re in Mandurah in about 75 to 90 minutes. A hire car gives you the flexibility to explore beyond the town centre, which is where the best bits are.
           </p>
 
-          <h2>Blue Manna Crabbing: Mandurah&apos;s Other Obsession</h2>
+          <div className="not-prose my-8 flex gap-4 bg-blue-50 border-l-4 border-blue-400 rounded-r-2xl p-5">
+            <div className="text-2xl">🐬</div>
+            <div>
+              <div className="font-black text-slate-900 mb-1">The dolphins are wild — and there are a lot of them</div>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                The Peel-Harvey Estuary is home to a resident pod of over 100 wild bottlenose dolphins — one of the largest resident populations in WA. You don&apos;t need to book a tour or pay anything to see them. Walk the foreshore boardwalk at sunrise or sunset and they regularly surface within metres of you. If you want a guaranteed up-close encounter in the water, the dolphin cruise boats know exactly where the pod is on any given day.
+              </p>
+            </div>
+          </div>
+
+          <h2>Top things to do in Mandurah</h2>
+
+          <h3>Walk the foreshore and spot dolphins for free</h3>
           <p>
-            Mandurah is the blue manna crab capital of Western Australia. Between November and April, locals wade into the estuary shallows with a hand net and a bucket — one of the great simple pleasures of a WA summer. You&apos;ll need a Recreational Fishing Licence (around $30/year or $15 for 3 days), and bag limits apply — check fish.wa.gov.au before you go.
-          </p>
-          <p>
-            If crabbing isn&apos;t your thing, several restaurants and fish-and-chip shops on the Mandurah Esplanade serve freshly cooked blue manna crabs daily. Eating crabs on the foreshore while pelicans patrol for scraps is one of the quintessential Mandurah experiences.
+            The Mandurah Foreshore walkway runs about 3 kilometres along the estuary edge — flat, easy, and lined with pelicans that have long since stopped being afraid of people. Early morning and late afternoon are the best times for dolphin sightings. The boardwalk connects the historic Old Bridge to the newer marina precinct, and the café strip along the way is solid.
           </p>
 
-          <h2>The Canal Cruise</h2>
+          <h3>Book a dolphin or canal cruise</h3>
           <p>
-            Mandurah&apos;s residential canal network is one of the largest in the southern hemisphere. A 90-minute canal cruise takes you through the waterways, past the estuary, and alongside the waterfront estates that give Mandurah its slightly surreal character. Completely different to anything else in the Perth day trip range, and genuinely enjoyable.
+            If you want a more structured experience, the dolphin and canal cruises departing from the main town jetty are genuinely worth it. Around $30 per adult for 90 minutes, and you&apos;ll almost certainly get closer to the dolphins than you would from the shore. The canal cruises take you through Mandurah&apos;s extraordinary residential waterway network — one of the largest canal systems in the southern hemisphere, lined with some of the most over-the-top waterfront properties you&apos;ll see outside the Gold Coast.
           </p>
 
-          <h2>Mandurah Ocean Beach</h2>
+          <h3>Go crabbing (or just eat crabs)</h3>
           <p>
-            Five minutes from the town centre, Mandurah Ocean Beach faces the full Indian Ocean. It&apos;s consistently rated one of the cleaner, less crowded ocean beaches in the Perth region — good surf at the southern end, calm patrolled swimming in the family area, and a kiosk for post-swim ice creams. The contrast between the calm, warm estuary and the open ocean beach — just five minutes apart — is one of Mandurah&apos;s best features.
+            Mandurah is the blue manna crab capital of WA. Between November and April, locals wade into the estuary shallows with a hand net and a bucket — it&apos;s a genuine WA tradition and visitors are welcome to join in. You&apos;ll need a Recreational Fishing Licence (around $30/year or $15 for 3 days, from fish.wa.gov.au) and bag limits apply.
           </p>
 
-          <h2>The Mandurah Foreshore and Pelican Feeding</h2>
+          <div className="not-prose my-6 bg-slate-50 rounded-2xl p-4">
+            <div className="font-bold text-slate-900 text-sm mb-1">Not sure what blue manna crabs are?</div>
+            <p className="text-slate-600 text-sm leading-relaxed">
+              Blue manna crabs (also called blue swimmer crabs) are the crabs you&apos;ll see on the menus of virtually every coastal WA restaurant in summer. They&apos;re blue when alive, turn bright orange when cooked, and have sweet, delicate white meat. Catching your own and eating them freshly cooked on the foreshore is a deeply Perth experience. If crabbing isn&apos;t your thing, several restaurants and fish-and-chip shops along the Mandurah Esplanade serve them daily.
+            </p>
+          </div>
+
+          <h3>Swim at Mandurah Ocean Beach</h3>
           <p>
-            The foreshore walkway runs about 3 kilometres along the estuary edge, flat and easy, dotted with pelicans that have long since abandoned any fear of humans. The <strong>daily pelican feeding</strong> at the Mandurah Visitor Centre happens at 3 PM — free, chaotic, and excellent for children. Arrive 10 minutes early for a good spot.
+            Five minutes from the town centre, this long white-sand beach faces the full Indian Ocean. Calm, patrolled swimming in the family area, decent surf at the southern end, a kiosk for post-swim ice creams. The contrast between the warm, sheltered estuary and the open ocean beach — both accessible in the same visit — is genuinely one of Mandurah&apos;s best features.
           </p>
 
-          <h2>Where to Eat in Mandurah</h2>
+          <h3>The 3 PM pelican feeding</h3>
           <p>
-            <strong>Dome Mandurah</strong> has a spectacular estuary-view terrace and opens at 7 AM — ideal for breakfast before a morning cruise. The <strong>foreshore fish-and-chip shops</strong> along the Esplanade serve fresh blue manna crabs at good value, with the estuary as backdrop. <strong>The Atrium Hotel Restaurant</strong> is the most polished option for a longer lunch — modern Australian, strong on local seafood, worth booking ahead on weekends.
+            Every day at 3 PM there&apos;s a pelican feeding near the Mandurah Visitor Centre. This sounds like a minor tourist thing and somehow ends up being a highlight of the day. The pelicans are enormous, completely unafraid, and arrive from multiple directions with intent. Kids love it. Adults trying to maintain their composure also love it.
           </p>
 
-          <h2>Suggested Day Trip Itinerary</h2>
+          <h2>Where to eat in Mandurah</h2>
           <p>
-            Leave Perth at 8 AM, arrive Mandurah around 9:15 AM. Walk the foreshore and have coffee at Dome. Take the 10:30 AM dolphin or canal cruise (90 minutes). Crab and chips on the Esplanade for lunch. Drive to Mandurah Ocean Beach for an afternoon swim. Return for the 3 PM pelican feeding. Head back to Perth by 4 PM — back by 5:15 PM before evening Kwinana Freeway traffic builds.
+            <strong>Dome Mandurah</strong> — the reliable WA café chain has a great estuary-view terrace here. Opens at 7 AM, good for breakfast before a morning cruise. <strong>The foreshore fish-and-chip shops</strong> along the Esplanade serve fresh blue manna crabs at good value — eating them outside while pelicans circle hopefully is the correct Mandurah experience. <strong>The Atrium Hotel Restaurant</strong> is the most polished option for a longer lunch, strong on local seafood.
           </p>
 
-          <h2>Getting There from Perth Airport</h2>
-          <p>
-            Mandurah is a direct drive south on the Kwinana Freeway — no tolls, no complex navigation, 75 kilometres of mostly 110 km/h freeway. From Perth Airport allow 75 to 90 minutes. A hire car gives you the flexibility to stop at the ocean beach and explore the canal areas that public transport doesn&apos;t reach.
-          </p>
+          <div className="not-prose my-10 bg-slate-900 text-white rounded-[2rem] p-7">
+            <div className="font-black text-xl mb-5">Perfect Mandurah day — leave Perth at 8 AM</div>
+            <ul className="space-y-3">
+              {[
+                '8:00 AM — Leave Perth. Kwinana Freeway south, 75 minutes.',
+                '9:15 AM — Arrive Mandurah. Walk the foreshore, spot dolphins, have coffee at Dome.',
+                '10:30 AM — Dolphin or canal cruise (book online, 90 minutes).',
+                '12:00 PM — Blue manna crab lunch on the Esplanade foreshore.',
+                '1:30 PM — Drive to Mandurah Ocean Beach for an afternoon swim (5 min).',
+                '2:45 PM — Head back to the foreshore.',
+                '3:00 PM — Pelican feeding at the Visitor Centre. Do not miss this.',
+                '4:00 PM — Drive back to Perth. In by 5:30 PM.',
+              ].map((tip) => (
+                <li key={tip} className="flex items-start gap-3 text-sm leading-relaxed text-slate-300">
+                  <span className="text-blue-400 mt-0.5 flex-shrink-0">→</span>
+                  {tip}
+                </li>
+              ))}
+            </ul>
+          </div>
 
-          <h2>The Bottom Line</h2>
+          <h2>The bottom line</h2>
           <p>
-            Mandurah is the day trip Perth locals take their interstate visitors on when they want to show them something genuinely WA — not the polished heritage streets of Fremantle, but an estuary town with wild dolphins and fresh crabs and a pace of life that reminds you what &ldquo;relaxed&rdquo; actually means.
+            Mandurah is the day trip that Perth locals take their interstate mates on when they want to show them something real — not the polished heritage streets of Fremantle or the famous beaches, but an estuary town with wild dolphins and fresh crabs and a pace of life that makes you wonder why you ever rush anywhere.
           </p>
           <p>
-            From Perth Airport, it&apos;s 75 minutes on a straight freeway. Pick up your hire car, head south on the Kwinana, and be watching dolphins in the estuary before morning coffee is finished.
+            From Perth Airport, it&apos;s 75 minutes straight down the Kwinana Freeway. Pick up a hire car, head south, and be watching dolphins before your morning coffee is finished.
           </p>
 
         </div>
@@ -119,10 +157,7 @@ export default function MandurahDayTripBlogPost() {
           <p className="text-slate-600 mb-6">
             Pick up your hire car at AutoTrip Perth Airport and head straight south on the Kwinana Freeway. Dolphins, crabs, and canal cruises — all in a single day. Free 24/7 shuttle from all Perth Airport terminals.
           </p>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-full hover:bg-primary/90 transition"
-          >
+          <Link href="/" className="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-full hover:bg-primary/90 transition">
             Book Your Hire Car at Perth Airport →
           </Link>
         </div>

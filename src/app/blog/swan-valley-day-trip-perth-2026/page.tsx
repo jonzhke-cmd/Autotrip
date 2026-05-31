@@ -34,9 +34,23 @@ export default function SwanValleyDayTripBlogPost() {
             Swan Valley Day Trip from Perth 2026: The Complete Guide
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed">
-            Twenty-five minutes from Perth Airport, along the banks of the Swan River, sits Western Australia&apos;s oldest wine region. The Swan Valley food and wine trail is one of the easiest and most rewarding day trips in the Perth metro area — and in 2026 it&apos;s better than it&apos;s ever been.
+            Twenty-five minutes from Perth Airport, WA&apos;s oldest wine region is also one of the easiest and most satisfying day trips in the entire state. Wine, chocolate, craft beer, nougat, cheese — and you can be back in time for dinner. Here&apos;s how to do it right.
           </p>
         </header>
+
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 mb-10">
+          {[
+            { label: 'From airport', value: '25 min' },
+            { label: 'Trail length', value: '32 km circuit' },
+            { label: 'Cellar doors', value: '150+ stops' },
+            { label: 'Best day', value: 'Sunday' },
+          ].map((fact) => (
+            <div key={fact.label} className="bg-slate-50 rounded-2xl p-4 text-center">
+              <div className="text-xs font-bold uppercase tracking-widest text-slate-400 mb-1">{fact.label}</div>
+              <div className="text-base font-black text-slate-900">{fact.value}</div>
+            </div>
+          ))}
+        </div>
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
@@ -52,106 +66,118 @@ export default function SwanValleyDayTripBlogPost() {
         <div className="prose prose-lg prose-slate max-w-none">
 
           <p>
-            The Swan Valley doesn&apos;t get the headlines that Margaret River does — and that&apos;s precisely what makes it so good in 2026. While WA&apos;s famous southern wine region attracts the tourism crowds and the destination-weekend visitors, the Swan Valley quietly gets on with producing excellent fortified wines, craft beers, artisan chocolate, nougat, cheese, and a food trail that you can explore in a single day with a hire car and a good appetite.
+            The Swan Valley doesn&apos;t get the headlines that Margaret River does — and honestly, that&apos;s exactly what makes it great. While WA&apos;s famous southern wine region fills up with weekend visitors and destination-getaway crowds, the Swan Valley quietly gets on with producing excellent fortified wines, craft beers, artisan chocolate, nougat, cheese, and a food trail you can do in a single day without staying overnight or driving three hours.
           </p>
           <p>
-            The Valley starts about 15 kilometres northeast of the Perth CBD, following the Swan River upstream through Guildford — WA&apos;s oldest colonial town — and into the river flats where the vineyards begin. From Perth Airport, you&apos;re there in 25 minutes heading north on the Great Eastern Highway. No winding roads, no tollways, no drama — just a straightforward drive into one of the most pleasant eating and drinking landscapes in WA.
+            The Valley starts about 15 kilometres northeast of Perth CBD, following the Swan River upstream through Guildford — WA&apos;s oldest colonial town — and into the river flats where the vineyards begin. From Perth Airport, head north on the Great Eastern Highway and you&apos;re there in 25 minutes. No winding roads, no drama.
           </p>
+
+          <div className="not-prose my-8 flex gap-4 bg-amber-50 border-l-4 border-amber-400 rounded-r-2xl p-5">
+            <div className="text-2xl">🍷</div>
+            <div>
+              <div className="font-black text-slate-900 mb-1">Swan Valley vs Margaret River — which one should you do?</div>
+              <p className="text-slate-700 text-sm leading-relaxed">
+                <strong>Swan Valley</strong> = day trip from Perth, no accommodation needed, 25 minutes away, casual food trail feel, fortified wines and full-bodied whites.<br/><br/>
+                <strong>Margaret River</strong> = destination in its own right, 3 hours south, needs at least 2 nights, cool-climate Cabernets and Chardonnays, coastal scenery.<br/><br/>
+                One free day in Perth? Swan Valley. Three days to spare? Margaret River. Simple.
+              </p>
+            </div>
+          </div>
 
           <h2>The Swan Valley Food and Wine Trail</h2>
           <p>
-            The <strong>Swan Valley Food and Wine Trail</strong> is a self-guided driving route that connects more than 150 cellar doors, restaurants, providores, breweries, distilleries, and artisan food producers along a roughly 32-kilometre circuit. You&apos;ll never cover all of it in a single day — the point is to pick a few stops that appeal and spend time properly, rather than rushing through a checklist.
+            The Food and Wine Trail is a self-guided driving route connecting more than 150 cellar doors, restaurants, providores, breweries, distilleries, and artisan food producers along a roughly 32-kilometre circuit. You&apos;re not meant to cover all of it — the point is picking a handful of stops that appeal and spending time properly, rather than rushing through a checklist.
           </p>
           <p>
-            The trail map is available at every cellar door and from the Swan Valley Visitor Centre in Guildford. It&apos;s colour-coded by category (wine, beer, food, chocolate, etc.) and every stop is numbered, which makes navigation easy. The circuit is designed to be driven clockwise starting from Guildford.
+            The trail map is available at every cellar door and from the Swan Valley Visitor Centre in Guildford. It&apos;s colour-coded by category (wine, beer, food, chocolate, etc.) and every stop is numbered. The circuit is designed to be driven clockwise starting from Guildford — follow that and you won&apos;t get confused.
           </p>
 
-          <h2>The Best Swan Valley Wineries in 2026</h2>
+          <h2>The best Swan Valley wineries in 2026</h2>
 
           <h3>Sandalford Wines</h3>
           <p>
-            Sandalford is the Swan Valley&apos;s most established estate — vines in the ground since 1840, making it one of the oldest continuously operating wineries in Australia. The Swan Valley cellar door is a substantial restaurant and function venue as well as a tasting room, and the food menu is properly good. The Sandalford Estate Reserve range is the one to try — particularly the fortified wines, which are some of the best in WA.
+            Sandalford has had vines in the ground since 1840 — one of the oldest continuously operating wineries in Australia. The Swan Valley cellar door is a proper restaurant and function venue as well as a tasting room, and the food menu is genuinely good. The Estate Reserve fortified wines are the standout; some of the best in WA.
           </p>
 
           <h3>Mandoon Estate</h3>
           <p>
-            Mandoon is the Swan Valley&apos;s most impressive modern estate — a purpose-built winery, restaurant, and boutique hotel complex that opened in 2012 and has been setting the benchmark for the region ever since. The wines are excellent (try the Homestead range), the restaurant is genuinely fine dining standard, and the views over the river from the terrace are the best in the Valley. Book for lunch on weekends — it&apos;s consistently one of WA&apos;s best restaurant experiences.
+            The Swan Valley&apos;s most impressive modern estate — a purpose-built winery, restaurant, and boutique hotel complex that opened in 2012 and has set the regional benchmark ever since. The Homestead range is the one to try, and the restaurant terrace views over the river are the best in the Valley. Book for lunch on weekends — it&apos;s consistently one of WA&apos;s better restaurant experiences.
           </p>
 
           <h3>Houghton Wines</h3>
           <p>
-            Houghton is probably WA&apos;s most recognised wine brand internationally — the Houghton White Burgundy (now White Classic) has been one of Australia&apos;s best-selling white wines for decades. The Swan Valley cellar door is large, well-run, and consistently excellent for tastings. Good for a comprehensive introduction to WA wine styles across all price points.
+            Houghton is probably WA&apos;s most recognised wine brand internationally — the White Classic (originally White Burgundy) has been one of Australia&apos;s best-selling whites for decades. The cellar door here is large, well-run, and a great introduction to WA wine styles across all price points.
           </p>
 
-          <h2>Beyond Wine: The Swan Valley Artisan Food Trail</h2>
+          <h2>Beyond wine: the artisan food trail</h2>
 
-          <h3>Margaret River Chocolate Company (Swan Valley)</h3>
-          <p>
-            The Swan Valley outpost of this beloved WA brand is one of the most visited stops on the trail. The free chocolate tasting bar (yes, free) runs the length of the shop and lets you work through the full range of couverture chocolates. The drinking chocolate is exceptional. Children consider this the best stop on the trail; their parents tend to agree once they&apos;ve sampled the dark chocolate range.
-          </p>
+          <div className="not-prose my-8 grid sm:grid-cols-2 gap-4">
+            {[
+              { name: 'Margaret River Chocolate Company', desc: 'Free tasting bar runs the length of the shop — work through the full couverture chocolate range at no charge. Kids go wild. Adults also go wild. The drinking chocolate is exceptional.' },
+              { name: 'The Cheese Barrel', desc: 'WA-made and imported cheeses, cured meats, and accompaniments. Perfect for assembling a riverside picnic — the Swan Valley has several excellent spots by the water.' },
+              { name: 'Mondo Nougat', desc: 'Handmade nougat in a huge range of flavours, including native Australian combinations you won\'t find elsewhere. The samples are generous and the gifting packs are popular WA souvenirs.' },
+              { name: 'Mash Brewing', desc: 'The Valley\'s best craft brewery in a converted agricultural building. Good year-round range plus seasonal releases. Wood-fired oven food menu. Excellent beer garden.' },
+            ].map((item) => (
+              <div key={item.name} className="bg-white border border-slate-200 rounded-2xl p-5">
+                <div className="font-black text-slate-900 text-sm mb-2">{item.name}</div>
+                <p className="text-slate-600 text-sm leading-relaxed">{item.desc}</p>
+              </div>
+            ))}
+          </div>
 
-          <h3>The Cheese Barrel</h3>
+          <h2>Start in Guildford — WA&apos;s oldest town</h2>
           <p>
-            A specialist cheese and smallgoods shop that stocks an excellent range of WA-made and imported cheeses, cured meats, and accompaniments. Perfect for assembling a picnic to eat by the river — the Swan Valley has several excellent riverside picnic spots, and The Cheese Barrel is the ideal provisioner.
-          </p>
-
-          <h3>Mondo Nougat</h3>
-          <p>
-            Handmade nougat in an extraordinary range of flavours — from classic honey and almond to native Australian flavour combinations that you won&apos;t find anywhere else. Watching the nougat being made through the production window is oddly hypnotic. The samples are generous; the gifting packs are among the most popular WA food souvenirs.
-          </p>
-
-          <h3>Mash Brewing</h3>
-          <p>
-            The Swan Valley&apos;s best craft brewery occupies a converted agricultural building and produces a solid year-round range plus seasonal releases that consistently win awards. The beer garden is excellent on a warm afternoon, and the food menu — built around the brewery&apos;s wood-fired oven — holds up well alongside the beer. The session pale ale is the reliable pick; the seasonal specials are worth asking about.
-          </p>
-
-          <h2>Swan Valley vs Margaret River: Which Should You Choose?</h2>
-          <p>
-            This is the question every Perth visitor asks, and the honest answer is that they serve completely different purposes.
+            Before heading into the vineyards, stop in Guildford — the historic township at the Valley&apos;s gateway and one of WA&apos;s most intact colonial streetscapes. The main street, James Street, has beautiful heritage buildings housing antique shops, galleries, and cafés. The <strong>Rose and Crown Hotel</strong> (1841) is the oldest continuously licensed hotel in WA and still does a good pub lunch in a genuinely historic building.
           </p>
           <p>
-            <strong>Swan Valley</strong> is a day trip from Perth — no accommodation needed, easy to combine with other Perth activities, and done comfortably in 6–8 hours from a Perth hotel or Airbnb. The wines lean toward fortifieds and fuller-bodied whites; the food scene is broader and more casual; the distances are short and the whole circuit is accessible in a standard hire car on sealed roads.
-          </p>
-          <p>
-            <strong>Margaret River</strong> is a destination in its own right — 3 hours south of Perth, worth at least 2 nights, and a completely different landscape and wine style (cool-climate Cabernets and Chardonnays, caves, surf beaches, and the most dramatic coastal scenery in southern WA). If you have 3+ days available, Margaret River is a clear choice. If you have a single free day in Perth, the Swan Valley is the practical pick.
-          </p>
-          <p>
-            For a hire car trip from Perth Airport, the Swan Valley is the ideal introduction to WA food and wine culture — close, accessible, and rewarding without requiring a full regional road trip commitment.
+            <strong>Woodbridge House</strong> (National Trust, 1885) runs guided tours on weekends — a beautifully preserved colonial homestead with river views that gives you great context for the Swan River Colony&apos;s early history. Good 45-minute stop before hitting the cellar doors.
           </p>
 
-          <h2>Guildford: WA&apos;s Oldest Town</h2>
+          <div className="not-prose my-8 flex gap-4 bg-green-50 border-l-4 border-green-500 rounded-r-2xl p-5">
+            <div className="text-2xl">🚗</div>
+            <div>
+              <div className="font-black text-slate-900 mb-1">Practical tips before you go</div>
+              <ul className="text-slate-700 text-sm leading-relaxed space-y-2 mt-1">
+                <li><strong>Designated driver:</strong> If you&apos;re doing serious wine tasting, sort this out before you leave. Tasting rooms are generous and WA&apos;s 0.05 BAC limit applies on the drive home.</li>
+                <li><strong>Best day:</strong> Sunday has the best atmosphere at the larger cellar doors. Weekdays are quieter with more personal service.</li>
+                <li><strong>Timing:</strong> Start in Guildford around 9:30–10 AM (most cellar doors open at 10–11 AM), work the circuit clockwise, and be back in Perth by 5–6 PM.</li>
+                <li><strong>Bring an esky (cooler box):</strong> Most cellar doors sell bottles and several food producers sell chilled items — worth having in the hire car boot.</li>
+              </ul>
+            </div>
+          </div>
+
+          <h2>Swan Valley with kids</h2>
           <p>
-            Before heading into the vineyards, stop in <strong>Guildford</strong> — the historic township at the gateway to the Swan Valley and one of WA&apos;s most intact colonial streetscapes. The main street, James Street, has beautiful heritage buildings housing antique shops, galleries, and excellent cafés. The <strong>Rose and Crown Hotel</strong> (1841) is the oldest continuously licensed hotel in WA and still serves a good pub lunch in a genuinely historic building.
-          </p>
-          <p>
-            Guildford is also home to the <strong>Woodbridge House</strong> (National Trust), a beautifully preserved 1885 colonial homestead with river views that runs guided tours on weekends. It gives excellent context for the European settlement of the Swan River Colony — a good 45-minute stop before hitting the wineries.
+            More family-friendly than you might expect. Most cellar doors have lawns and outdoor spaces, several have kids&apos; menus, and the Margaret River Chocolate Company free tasting bar is a guaranteed hit with every age group. <strong>Caversham Wildlife Park</strong> at the southern end of the Valley is one of Perth&apos;s best — koala cuddle sessions, kangaroo feeding, and a wide range of Australian native animals. A great half-day stop for families with young children.
           </p>
 
-          <h2>Swan Valley With Kids</h2>
-          <p>
-            The Swan Valley is genuinely family-friendly — most cellar doors have lawns and outdoor spaces, several have specific children&apos;s menus, and the Margaret River Chocolate Company free tasting bar is a hit with every age group. The <strong>Caversham Wildlife Park</strong> (at the southern end of the Valley) is one of Perth&apos;s best wildlife parks, with koala cuddle sessions, kangaroo feeding, and a wide range of Australian native animals. It&apos;s an excellent half-day stop for families with young children before or after the food trail.
-          </p>
+          <div className="not-prose my-10 bg-slate-900 text-white rounded-[2rem] p-7">
+            <div className="font-black text-xl mb-5">Suggested day out — starting from Perth Airport</div>
+            <ul className="space-y-3">
+              {[
+                '9:30 AM — Pick up your hire car at AutoTrip Perth Airport',
+                '10:00 AM — Arrive in Guildford, walk James Street and have coffee',
+                '10:45 AM — Woodbridge House guided tour (weekends only, 45 min)',
+                '11:30 AM — First cellar door — Sandalford or Houghton for a proper introduction',
+                '1:00 PM — Lunch at Mandoon Estate (book ahead on weekends)',
+                '2:30 PM — Artisan food trail: Chocolate Company, Mondo Nougat, Cheese Barrel',
+                '4:00 PM — Mash Brewing for an afternoon beer and the beer garden',
+                '5:30 PM — Back on the Great Eastern Highway, in Perth by 6 PM',
+              ].map((tip) => (
+                <li key={tip} className="flex items-start gap-3 text-sm leading-relaxed text-slate-300">
+                  <span className="text-amber-400 mt-0.5 flex-shrink-0">→</span>
+                  {tip}
+                </li>
+              ))}
+            </ul>
+          </div>
 
-          <h2>Practical Tips for Your Swan Valley Day Trip</h2>
+          <h2>The bottom line</h2>
           <p>
-            <strong>Designated driver:</strong> If you&apos;re doing serious wine tasting, designate a driver or book a wine tour with transport. Tasting rooms are generous and the drive back to Perth, while straightforward, requires full sobriety. AutoTrip&apos;s hire cars are fully insured for wine country driving but you&apos;ll still need to comply with WA&apos;s 0.05 BAC limit.
+            The Swan Valley is the day trip that Perth locals recommend when visiting friends ask &ldquo;what should I do tomorrow?&rdquo; Close enough to be casual, good enough to be memorable, and varied enough that two people with completely different interests — one for wine, one for chocolate and cheese — both come away happy.
           </p>
           <p>
-            <strong>Best day:</strong> Sunday is the busiest day and has the best atmosphere at the larger cellar doors. Saturday is good but busier. Weekdays are quieter, with more personal cellar door service and easier parking everywhere.
-          </p>
-          <p>
-            <strong>Timing:</strong> Start in Guildford around 9:30–10 AM (most cellar doors open at 10 AM or 11 AM), work the circuit clockwise through the morning and into the afternoon, and be back in Perth by 5–6 PM. This gives you a comfortable 6–7 hours in the Valley with no rushing.
-          </p>
-          <p>
-            <strong>What to bring:</strong> An esky (cooler box) is worth having in the hire car boot for the drive back — most cellar doors sell wines by the bottle and several of the food producers sell items that benefit from being kept cool on the way home.
-          </p>
-
-          <h2>The Bottom Line</h2>
-          <p>
-            The Swan Valley is the day trip that Perth locals recommend to visiting friends when they ask &quot;what should I do tomorrow?&quot; It&apos;s close enough to be casual, good enough to be memorable, and varied enough that two people with completely different interests — one for wine, one for chocolate and cheese — can both have an excellent day.
-          </p>
-          <p>
-            From Perth Airport, it&apos;s 25 minutes in a hire car. Pick up an AutoTrip vehicle at the terminals, put the Great Eastern Highway into your GPS, and head north. The Swan River is waiting.
+            From Perth Airport, it&apos;s 25 minutes north on the Great Eastern Highway. Pick up your hire car, head toward Guildford, and take it from there.
           </p>
 
         </div>
@@ -161,10 +187,7 @@ export default function SwanValleyDayTripBlogPost() {
           <p className="text-slate-600 mb-6">
             Pick up your hire car at AutoTrip Perth Airport and be tasting wines at Sandalford by mid-morning. Free 24/7 shuttle service from all Perth Airport terminals.
           </p>
-          <Link
-            href="/"
-            className="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-full hover:bg-primary/90 transition"
-          >
+          <Link href="/" className="inline-flex items-center gap-2 bg-primary text-white font-bold px-8 py-4 rounded-full hover:bg-primary/90 transition">
             Book Your Hire Car at Perth Airport →
           </Link>
         </div>
