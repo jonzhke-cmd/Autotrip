@@ -40,7 +40,7 @@ const articles = [
     excerpt: "One of the largest inner-city parks in the world, free every day, with panoramic views of the Perth skyline and Swan River. Wildflower season, the Federation Walkway, best picnic spots, and practical tips.",
     date: "May 27, 2026",
     category: "Perth Attractions",
-    image: "https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=800&auto=format&fit=crop&q=80",
+    image: "/kings-park-perth.jpg",
   },
   {
     slug: "cottesloe-beach-perth-guide-2026",

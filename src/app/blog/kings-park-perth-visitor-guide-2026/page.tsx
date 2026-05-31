@@ -55,7 +55,7 @@ export default function KingsParkGuideBlogPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1598300042247-d088f8ab3a91?w=1400&q=80"
+            src="/kings-park-perth.jpg"
             alt="Kings Park Perth wildflowers and city skyline views over the Swan River"
             fill
             className="object-cover"
