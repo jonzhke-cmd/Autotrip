@@ -128,7 +128,7 @@ const articles = [
     date: "April 9, 2026",
     category: "Turquoise Coast Road Trips",
     // Coastal sand dunes — Jurien Bay / Lancelin dunes
-    image: "https://images.unsplash.com/photo-1516738901171-8eb4fc13bd20?w=800&auto=format&fit=crop&q=80",
+    image: "/jurien-bay-turquoise-coast.jpg",
   },
   {
     slug: "perth-to-esperance-road-trip-2026",
