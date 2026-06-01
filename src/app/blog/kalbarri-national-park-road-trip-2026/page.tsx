@@ -54,7 +54,7 @@ export default function KalbarriNationalParkRoadTrip2026() {
         {/* Hero Image */}
         <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden mb-12">
           <Image
-            src="https://images.unsplash.com/photo-1506905925346-21bda4d32df4?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+            src="/kalbarri-natures-window.jpg"
             alt="Dramatic red rock gorge in Kalbarri National Park Western Australia with Murchison River below"
             fill
             className="object-cover"

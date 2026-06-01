@@ -101,7 +101,7 @@ const articles = [
     date: "April 13, 2026",
     category: "WA Gorge Road Trips",
     // Red rock canyon/gorge — Kalbarri Murchison River gorge
-    image: "https://images.unsplash.com/photo-1523978591478-c753949ff840?w=800&auto=format&fit=crop&q=80",
+    image: "/kalbarri-natures-window.jpg",
   },
   {
     slug: "perth-to-monkey-mia-shark-bay-2026",
