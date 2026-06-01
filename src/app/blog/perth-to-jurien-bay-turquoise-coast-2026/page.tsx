@@ -114,7 +114,7 @@ export default function PerthToJurienBayTurquoiseCoast2026() {
           {/* Image */}
           <div className="relative w-full aspect-[16/9] rounded-3xl overflow-hidden my-10">
             <Image
-              src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80"
+              src="/cervantes-lobster.jpg"
               alt="Fresh Western Rock Lobster at Cervantes Lobster Shack - famous seafood experience on WA's Turquoise Coast"
               fill
               className="object-cover"
