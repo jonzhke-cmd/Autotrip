@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "margaret-river-wine-region-perth-2026",
+    title: "Margaret River 2026: World-Class Wine, Ancient Caves & Perfect Surf — All 3 Hours from Perth Airport",
+    excerpt: "Over 200 cellar doors, five ancient cave systems, two famous surf breaks, and a food scene to rival any capital city. Margaret River is WA's most complete road trip — and it's only 3 hours south of Perth Airport.",
+    date: "June 3, 2026",
+    category: "Wine Country Road Trips",
+    image: "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "mandurah-day-trip-from-perth-2026",
     title: "Mandurah Day Trip from Perth 2026: Dolphins, Crabs & Canal Cruises",
     excerpt: "Wild dolphins in the estuary, blue manna crabs fresh off the jetty, canal cruises, and an ocean beach around the corner — Mandurah is Perth\'s best-kept day trip secret, just 75 minutes south of the city.",
