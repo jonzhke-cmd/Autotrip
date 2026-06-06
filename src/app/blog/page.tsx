@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "busselton-jetty-geographe-bay-2026",
+    title: "Busselton & the World's Longest Wooden Jetty: Your 2026 Visitor Guide",
+    excerpt: "Walk 1.8 km over Geographe Bay to an underwater observatory teeming with coral and fish. The calmest swimming beaches in the South West, great seafood, and 40 minutes from Margaret River wine country.",
+    date: "June 6, 2026",
+    category: "South West Road Trips",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "margaret-river-wine-region-perth-2026",
     title: "Margaret River 2026: World-Class Wine, Ancient Caves & Perfect Surf — All 3 Hours from Perth Airport",
     excerpt: "Over 200 cellar doors, five ancient cave systems, two famous surf breaks, and a food scene to rival any capital city. Margaret River is WA's most complete road trip — and it's only 3 hours south of Perth Airport.",
