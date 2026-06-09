@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "lancelin-sand-dunes-day-trip-perth-2026",
+    title: "Lancelin Sand Dunes: The Wildest Day Trip Just 2 Hours from Perth",
+    excerpt: "Giant white sand dunes, world-class kitesurfing, fresh crayfish straight off the boat, and a scenic Indian Ocean drive. Lancelin is one of Perth's most exhilarating day trips — and most visitors don't even know it exists.",
+    date: "June 9, 2026",
+    category: "Day Trips",
+    image: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "busselton-jetty-geographe-bay-2026",
     title: "Busselton & the World's Longest Wooden Jetty: Your 2026 Visitor Guide",
     excerpt: "Walk 1.8 km over Geographe Bay to an underwater observatory teeming with coral and fish. The calmest swimming beaches in the South West, great seafood, and 40 minutes from Margaret River wine country.",
