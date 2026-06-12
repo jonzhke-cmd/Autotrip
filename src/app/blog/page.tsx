@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "scarborough-beach-perth-guide-2026",
+    title: "Scarborough Beach: Perth's Liveliest Coastline, 30 Minutes from the Airport",
+    excerpt: "Surf, a geothermally heated beachfront pool, sunset markets, skate bowls and the best west-facing sunsets in the city. Scarborough is Perth's most complete beach precinct \u2014 just 26 km from Perth Airport.",
+    date: "June 12, 2026",
+    category: "Perth Beaches",
+    image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "lancelin-sand-dunes-day-trip-perth-2026",
     title: "Lancelin Sand Dunes: The Wildest Day Trip Just 2 Hours from Perth",
     excerpt: "Giant white sand dunes, world-class kitesurfing, fresh crayfish straight off the boat, and a scenic Indian Ocean drive. Lancelin is one of Perth's most exhilarating day trips — and most visitors don't even know it exists.",
