@@ -49,8 +49,8 @@ export default function ScarboroughBeachBlogPost() {
 
         <div className="relative w-full aspect-[21/9] rounded-[2rem] overflow-hidden mb-16">
           <Image
-            src="https://images.unsplash.com/photo-1519046904884-53103b34b206?w=1400&q=80"
-            alt="Wide white-sand beach and turquoise Indian Ocean at Scarborough Beach, Perth, Western Australia"
+            src="https://images.unsplash.com/photo-1574473084259-9839447145a2?w=1400&q=80"
+            alt="Skateboarders silhouetted against the sunset at the Snake Pit, Scarborough Beach, Perth"
             fill
             className="object-cover"
             priority
@@ -58,16 +58,26 @@ export default function ScarboroughBeachBlogPost() {
           />
         </div>
 
-        <div className="prose prose-lg prose-slate max-w-none">
-          <h2>Scarborough at a Glance</h2>
-          <ul>
-            <li><strong>Drive from Perth Airport:</strong> 26 km, about 30 minutes</li>
-            <li><strong>Best for:</strong> surf, sunsets, and a full day of eating, swimming and people-watching</li>
-            <li><strong>Don&apos;t miss:</strong> the heated beachfront pool and Thursday sunset markets</li>
-            <li><strong>Parking:</strong> multi-storey carpark on The Esplanade, 2 minutes from the sand</li>
-            <li><strong>Swimming:</strong> between the flags only &mdash; this is a real surf beach</li>
-          </ul>
+        <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-16">
+          <div className="bg-slate-50 rounded-2xl p-6 text-center">
+            <div className="text-3xl font-black text-slate-900 mb-1">26 km</div>
+            <div className="text-sm font-semibold text-slate-500">from Perth Airport</div>
+          </div>
+          <div className="bg-slate-50 rounded-2xl p-6 text-center">
+            <div className="text-3xl font-black text-slate-900 mb-1">~30 min</div>
+            <div className="text-sm font-semibold text-slate-500">drive time</div>
+          </div>
+          <div className="bg-slate-50 rounded-2xl p-6 text-center">
+            <div className="text-3xl font-black text-slate-900 mb-1">365 days</div>
+            <div className="text-sm font-semibold text-slate-500">heated beach pool</div>
+          </div>
+          <div className="bg-slate-50 rounded-2xl p-6 text-center">
+            <div className="text-3xl font-black text-slate-900 mb-1">1928</div>
+            <div className="text-sm font-semibold text-slate-500">surf club patrols since</div>
+          </div>
+        </div>
 
+        <div className="prose prose-lg prose-slate max-w-none">
           <h2>Why Locals Pick Scarborough</h2>
           <p>
             Cottesloe gets the postcards, but Scarborough is where Perth goes to play. It&apos;s the only beach in the city that combines real surf, a heated ocean-side pool, a buzzing esplanade and a dining strip that stays alive after dark. And because it faces directly west, <strong>every sunset is a show</strong> &mdash; locals time their evening swim so they&apos;re in the water as the sun drops into the Indian Ocean.
@@ -112,6 +122,15 @@ export default function ScarboroughBeachBlogPost() {
             <li><strong>Trigg Beach</strong> (3 min): Perth&apos;s premier surf break</li>
             <li><strong>Mettams Pool</strong> (7 min): a protected reef pool, perfect for first-time snorkellers</li>
             <li><strong>Hillarys Boat Harbour</strong> (15 min): marina, calm swimming beach and the AQWA aquarium</li>
+          </ul>
+
+          <h2>Your Perfect Scarborough Day</h2>
+          <ul>
+            <li><strong>9:00am</strong> &mdash; coffee on the caf&eacute; strip, walk the coastal path</li>
+            <li><strong>10:00am</strong> &mdash; surf lesson on the southern end, or laps in the heated pool</li>
+            <li><strong>12:30pm</strong> &mdash; fish and chips on the grass overlooking the water</li>
+            <li><strong>2:00pm</strong> &mdash; drive the coast: Trigg, Mettams Pool, Hillarys</li>
+            <li><strong>5:30pm</strong> &mdash; back for the sunset swim, then dinner on the strip</li>
           </ul>
 
           <h2>When to Go</h2>

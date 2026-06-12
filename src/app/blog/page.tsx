@@ -16,7 +16,7 @@ const articles = [
     excerpt: "Surf, a geothermally heated beachfront pool, sunset markets, skate bowls and the best west-facing sunsets in the city. Scarborough is Perth's most complete beach precinct \u2014 just 26 km from Perth Airport.",
     date: "June 12, 2026",
     category: "Perth Beaches",
-    image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1574473084259-9839447145a2?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "lancelin-sand-dunes-day-trip-perth-2026",
