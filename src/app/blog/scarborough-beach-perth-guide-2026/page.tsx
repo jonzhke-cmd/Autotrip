@@ -43,7 +43,7 @@ export default function ScarboroughBeachBlogPost() {
             Scarborough Beach: Perth&apos;s Liveliest Coastline, 30 Minutes from the Airport
           </h1>
           <p className="text-xl text-slate-600 leading-relaxed">
-            Cottesloe gets the postcards, but Scarborough is where Perth actually goes to play. A wide white-sand surf beach backed by a redeveloped esplanade with a geothermally heated beach pool, sunset markets, skate bowls and some of the best fish and chips on the coast — all an easy half-hour drive from Perth Airport.
+            Surf, sunsets, a heated beachfront pool and the liveliest esplanade in Perth — all 30 minutes from the airport. Here&apos;s how to do Scarborough properly.
           </p>
         </header>
 
@@ -59,59 +59,64 @@ export default function ScarboroughBeachBlogPost() {
         </div>
 
         <div className="prose prose-lg prose-slate max-w-none">
-          <h2>Why Scarborough Should Be Your First Perth Beach</h2>
+          <h2>Scarborough at a Glance</h2>
+          <ul>
+            <li><strong>Drive from Perth Airport:</strong> 26 km, about 30 minutes</li>
+            <li><strong>Best for:</strong> surf, sunsets, and a full day of eating, swimming and people-watching</li>
+            <li><strong>Don&apos;t miss:</strong> the heated beachfront pool and Thursday sunset markets</li>
+            <li><strong>Parking:</strong> multi-storey carpark on The Esplanade, 2 minutes from the sand</li>
+            <li><strong>Swimming:</strong> between the flags only &mdash; this is a real surf beach</li>
+          </ul>
+
+          <h2>Why Locals Pick Scarborough</h2>
           <p>
-            Every Perth local has a beach allegiance, and Scarborough&apos;s case is simple: it does more than any other beach in the city. Cottesloe is prettier at golden hour and City Beach is calmer for families, but Scarborough is the only Perth beach that combines genuine surf, a full entertainment precinct, year-round swimming in a heated ocean-side pool, and a dining strip that stays busy long after the sun drops into the Indian Ocean.
-          </p>
-          <p>
-            The beach itself is a broad, west-facing stretch of squeaky white sand with water that shifts from turquoise in the shallows to deep blue past the banks. Because it faces directly west, <strong>every single sunset is a show</strong> — locals time their evening swim so they&apos;re floating in the water as the sun goes down.
+            Cottesloe gets the postcards, but Scarborough is where Perth goes to play. It&apos;s the only beach in the city that combines real surf, a heated ocean-side pool, a buzzing esplanade and a dining strip that stays alive after dark. And because it faces directly west, <strong>every sunset is a show</strong> &mdash; locals time their evening swim so they&apos;re in the water as the sun drops into the Indian Ocean.
           </p>
 
-          <h2>Getting There from Perth Airport</h2>
+          <h2>Getting There</h2>
           <p>
-            Scarborough sits about <strong>26 kilometres west of Perth Airport</strong>, and with your own hire car the drive takes roughly 30 to 35 minutes outside of peak hour. The easiest route runs along the Tonkin Highway, through the Graham Farmer Freeway tunnel, then up the Mitchell Freeway before cutting west on Scarborough Beach Road, which delivers you straight to the ocean.
+            From Perth Airport it&apos;s one simple run: Tonkin Highway, through the Graham Farmer tunnel, up the Mitchell Freeway, then west on Scarborough Beach Road straight to the ocean. About 30 minutes outside peak hour.
           </p>
           <p>
-            Public transport from the airport requires a train into the city and a second connection out to the coast — comfortably over an hour with luggage. By car it&apos;s one straight run, and you&apos;ll want the car anyway: the best of this coastline is spread along ten kilometres of beaches that no bus route links together well.
-          </p>
-          <p>
-            <strong>Parking:</strong> the multi-storey carpark on The Esplanade is the reliable option and puts you a two-minute walk from the sand. Street parking exists but fills fast on summer weekends — arrive before 10am or after 4pm if you&apos;re visiting between December and February.
+            Public transport takes over an hour with two connections &mdash; and you&apos;ll want a car anyway, because the best of this coast is spread along ten kilometres of beaches no bus links together. In summer, arrive before 10am or after 4pm for easy parking.
           </p>
 
-          <h2>The Beach: Surf, Swimming and Staying Safe</h2>
+          <h2>The Beach</h2>
           <p>
-            Scarborough is a true surf beach. The consistent beach-break peaks make it one of the most popular learn-to-surf spots in Perth, and surf schools run lessons on the southern end most mornings. If you&apos;ve ever wanted to stand up on a wave, this is a forgiving place to try.
+            A broad stretch of squeaky white sand with water shifting from turquoise to deep blue. The consistent beach breaks make Scarborough one of Perth&apos;s most popular learn-to-surf spots &mdash; schools run lessons on the southern end most mornings.
           </p>
           <p>
-            That same swell means you should take the water seriously. Rips do form along the sandbanks, so <strong>swim between the red and yellow flags</strong> in front of the surf club. Scarboro Surf Life Saving Club — one of the oldest in Western Australia, founded in 1928 — patrols the beach through the warmer months. The flagged area is generally calm enough for confident swimmers, while families with small children may prefer the pool a few steps away.
-          </p>
-
-          <h2>The Esplanade: More Than Just a Beach</h2>
-          <p>
-            A major redevelopment transformed Scarborough&apos;s foreshore into the most complete beach precinct in Perth, and it&apos;s all free to wander.
-          </p>
-          <h3>Scarborough Beach Pool</h3>
-          <p>
-            The headline act is a six-lane, geothermally heated outdoor pool sitting right on the beachfront, open year-round. Swimming laps in warm water while watching winter surf roll in behind the glass fence is a uniquely Perth experience. Entry is inexpensive, and there&apos;s a café attached for post-swim coffee.
-          </p>
-          <h3>Skate Park, Amphitheatre and Sunset Markets</h3>
-          <p>
-            The Snake Pit skate bowl draws an impressive standard of skaters most evenings and is genuinely fun to watch with an ice cream in hand. The grassed amphitheatre hosts free concerts and outdoor cinema in summer, and on Thursday evenings in the warmer months the <strong>Scarborough Sunset Markets</strong> fill the foreshore with food trucks, live music and market stalls — easily the best-value dinner on the coast.
+            Take the water seriously, though. Rips form along the sandbanks, so <strong>swim between the red and yellow flags</strong> in front of Scarboro Surf Life Saving Club, which has patrolled this beach since 1928. Families with small kids may prefer the pool a few steps away.
           </p>
 
-          <h2>Where to Eat and Drink</h2>
+          <h2>The Esplanade</h2>
           <p>
-            The dining strip along The Esplanade covers everything from quick post-swim feeds to long sunset dinners. Fish and chips eaten on the grass overlooking the water remains the classic Scarborough meal, and you&apos;ll find several contenders within a hundred metres of each other. For something longer, the beachfront pubs and restaurants along the strip all trade heavily on their west-facing windows — book ahead for a sunset table on Friday or Saturday. Morning visitors are well served too: the café scene fires from early, full of swimmers and runners doing the coastal path.
+            A major redevelopment turned Scarborough&apos;s foreshore into Perth&apos;s most complete beach precinct &mdash; all free to wander.
+          </p>
+          <ul>
+            <li><strong>Scarborough Beach Pool:</strong> a six-lane, geothermally heated outdoor pool right on the beachfront, open year-round. Swimming warm laps while winter surf rolls in behind the glass is a uniquely Perth experience.</li>
+            <li><strong>The Snake Pit:</strong> a skate bowl with an impressive standard of skaters most evenings &mdash; great spectator sport with an ice cream in hand.</li>
+            <li><strong>Sunset Markets:</strong> Thursday evenings in the warmer months, the foreshore fills with food trucks, live music and stalls. The best-value dinner on the coast.</li>
+          </ul>
+
+          <h2>Eat &amp; Drink</h2>
+          <p>
+            Fish and chips on the grass overlooking the water is the classic Scarborough meal, with several contenders within a hundred metres of each other. For a longer evening, the beachfront pubs and restaurants all trade on their west-facing windows &mdash; book ahead for a sunset table on weekends. Mornings, the caf&eacute; strip fires early with swimmers and runners off the coastal path.
           </p>
 
-          <h2>Make a Day of It: The Coastal Drive North</h2>
+          <h2>Make a Day of It</h2>
           <p>
-            With a hire car, Scarborough becomes the start of one of Perth&apos;s great short drives. Head north along the West Coast Highway and you hit <strong>Trigg Beach</strong> (Perth&apos;s premier surf break) in three minutes, <strong>Mettams Pool</strong> (a protected natural reef pool that&apos;s perfect for first-time snorkellers) in seven, and <strong>Hillarys Boat Harbour</strong> with its marina, swimming beach and the AQWA aquarium in about fifteen. String them together and you have a full coastal day without ever being more than 25 minutes from your Scarborough base.
+            With a car, Scarborough is the start of one of Perth&apos;s great short drives north along West Coast Highway:
           </p>
+          <ul>
+            <li><strong>Trigg Beach</strong> (3 min): Perth&apos;s premier surf break</li>
+            <li><strong>Mettams Pool</strong> (7 min): a protected reef pool, perfect for first-time snorkellers</li>
+            <li><strong>Hillarys Boat Harbour</strong> (15 min): marina, calm swimming beach and the AQWA aquarium</li>
+          </ul>
 
-          <h2>When to Visit</h2>
+          <h2>When to Go</h2>
           <p>
-            Summer (December to February) brings hot days, busy sand and the famous afternoon sea breeze — the &quot;Fremantle Doctor&quot; — which cools everything down but can chop up the water, so swim in the morning. Autumn (March to May) is arguably perfect: warm ocean, lighter crowds, glassy mornings. Winter swims belong to the heated pool, though storm-watching from a café window has its own appeal. Year-round, plan to be on the beach an hour before sunset. It never gets old.
+            Summer brings hot days and the afternoon &quot;Fremantle Doctor&quot; sea breeze &mdash; swim in the morning. Autumn is arguably perfect: warm ocean, lighter crowds, glassy conditions. Winter belongs to the heated pool and storm-watching from a caf&eacute; window. Whenever you come, be on the beach an hour before sunset. It never gets old.
           </p>
         </div>
 
