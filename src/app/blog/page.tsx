@@ -24,7 +24,7 @@ const articles = [
     excerpt: "Giant white sand dunes, world-class kitesurfing, fresh crayfish straight off the boat, and a scenic Indian Ocean drive. Lancelin is one of Perth's most exhilarating day trips — and most visitors don't even know it exists.",
     date: "June 9, 2026",
     category: "Day Trips",
-    image: "https://images.unsplash.com/photo-1509316785289-025f5b846b35?w=800&auto=format&fit=crop&q=80",
+    image: "https://images.unsplash.com/photo-1597687499209-a823b50abd5e?w=800&auto=format&fit=crop&q=80",
   },
   {
     slug: "busselton-jetty-geographe-bay-2026",
