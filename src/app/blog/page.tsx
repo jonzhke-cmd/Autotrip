@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "wave-rock-hyden-perth-day-trip-2026",
+    title: "Wave Rock Hyden: WA's Most Jaw-Dropping Natural Landmark, 3.5 Hours from Perth",
+    excerpt: "A 2.7-billion-year-old granite wave frozen mid-curl, 340 km east of Perth Airport. The complete 2026 guide to Wave Rock, Mulka's Cave, wildflower season, and why the Wheatbelt road trip is better than any coastal drive.",
+    date: "June 15, 2026",
+    category: "Wheatbelt Road Trips",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "scarborough-beach-perth-guide-2026",
     title: "Scarborough Beach: Perth's Liveliest Coastline, 30 Minutes from the Airport",
     excerpt: "Surf, a geothermally heated beachfront pool, sunset markets, skate bowls and the best west-facing sunsets in the city. Scarborough is Perth's most complete beach precinct \u2014 just 26 km from Perth Airport.",
