@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "northbridge-food-scene-perth-2026",
+    title: "Northbridge Perth 2026: Food, Culture & Nightlife Just 20 Minutes from the Airport",
+    excerpt: "Ramen at midnight, rooftop cocktails at sunset, WA wines and a street-art laneway that changes every month. Northbridge is where Perth lets its hair down — and it's just 18 km from the airport.",
+    date: "June 18, 2026",
+    category: "Perth City Guide",
+    image: "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "wave-rock-hyden-perth-day-trip-2026",
     title: "Wave Rock Hyden: WA's Most Jaw-Dropping Natural Landmark, 3.5 Hours from Perth",
     excerpt: "A 2.7-billion-year-old granite wave frozen mid-curl, 340 km east of Perth Airport. The complete 2026 guide to Wave Rock, Mulka's Cave, wildflower season, and why the Wheatbelt road trip is better than any coastal drive.",
