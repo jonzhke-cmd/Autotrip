@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "pemberton-karri-forest-perth-2026",
+    title: "Pemberton Karri Forest 2026: Climb a 61-Metre Tree in WA's Greatest Forest",
+    excerpt: "Ancient karri giants, a terrifying 61-metre fire lookout tree you can actually climb, Beedelup Falls, the Yeagarup Dunes, and a heritage tram through the forest. Pemberton is 3.5 hours south of Perth Airport and worth every kilometre.",
+    date: "June 21, 2026",
+    category: "South West Road Trips",
+    image: "https://images.unsplash.com/photo-1469474968028-56623f02e42e?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "northbridge-food-scene-perth-2026",
     title: "Northbridge Perth 2026: Food, Culture & Nightlife Just 20 Minutes from the Airport",
     excerpt: "Ramen at midnight, rooftop cocktails at sunset, WA wines and a street-art laneway that changes every month. Northbridge is where Perth lets its hair down — and it's just 18 km from the airport.",
