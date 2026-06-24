@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "yanchep-national-park-koalas-perth-2026",
+    title: "Yanchep National Park 2026: Koalas, Crystal Caves & the Day Trip Most Perth Visitors Miss",
+    excerpt: "Wild koalas in tuart trees, a glittering limestone cave, a lake full of black swans, and coastal walks with Indian Ocean views — all 51 km north of Perth Airport. The complete 2026 guide to Yanchep National Park.",
+    date: "June 24, 2026",
+    category: "Wildlife Day Trips",
+    image: "https://images.unsplash.com/photo-1587300003388-59208cc962cb?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "pemberton-karri-forest-perth-2026",
     title: "Pemberton Karri Forest 2026: Climb a 61-Metre Tree in WA's Greatest Forest",
     excerpt: "Ancient karri giants, a terrifying 61-metre fire lookout tree you can actually climb, Beedelup Falls, the Yeagarup Dunes, and a heritage tram through the forest. Pemberton is 3.5 hours south of Perth Airport and worth every kilometre.",
