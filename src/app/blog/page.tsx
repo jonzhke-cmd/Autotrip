@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "stirling-range-national-park-bluff-knoll-2026",
+    title: "Stirling Range National Park 2026: Climb WA's Highest Peak and Walk Through a Wildflower World",
+    excerpt: "Bluff Knoll rises 1,099 metres above the Great Southern plains — WA's highest peak south of the Pilbara, surrounded by 1,500 plant species including 87 found nowhere else on Earth. The complete 2026 hiking and road trip guide.",
+    date: "June 27, 2026",
+    category: "Great Southern Road Trips",
+    image: "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "yanchep-national-park-koalas-perth-2026",
     title: "Yanchep National Park 2026: Koalas, Crystal Caves & the Day Trip Most Perth Visitors Miss",
     excerpt: "Wild koalas in tuart trees, a glittering limestone cave, a lake full of black swans, and coastal walks with Indian Ocean views — all 51 km north of Perth Airport. The complete 2026 guide to Yanchep National Park.",
