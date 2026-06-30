@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "new-norcia-monastic-town-perth-2026",
+    title: "New Norcia: The Spanish Monastery Town Most Perth Visitors Have Never Heard Of",
+    excerpt: "Drive 90 minutes north of Perth Airport and find Australia's only monastic town — ornate Spanish Benedictine colleges, a world-class art collection, and bread people drive four hours to buy. New Norcia is the most surprising day trip in WA.",
+    date: "June 30, 2026",
+    category: "Heritage Day Trips",
+    image: "https://images.unsplash.com/photo-1548625149-720334b2c44d?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "stirling-range-national-park-bluff-knoll-2026",
     title: "Stirling Range National Park 2026: Climb WA's Highest Peak and Walk Through a Wildflower World",
     excerpt: "Bluff Knoll rises 1,099 metres above the Great Southern plains — WA's highest peak south of the Pilbara, surrounded by 1,500 plant species including 87 found nowhere else on Earth. The complete 2026 hiking and road trip guide.",
