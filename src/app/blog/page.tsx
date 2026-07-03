@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "york-wa-day-trip-perth-2026",
+    title: "York WA: Western Australia's Oldest Inland Town Is an Hour from the Airport and Worth Every Minute",
+    excerpt: "Founded in 1831, York is WA's oldest inland settlement — colonial streetscapes, a world-class motor museum, the Avon River, and excellent cafes just 97 km from Perth Airport.",
+    date: "July 3, 2026",
+    category: "Heritage Day Trips",
+    image: "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "new-norcia-monastic-town-perth-2026",
     title: "New Norcia: The Spanish Monastery Town Most Perth Visitors Have Never Heard Of",
     excerpt: "Drive 90 minutes north of Perth Airport and find Australia's only monastic town — ornate Spanish Benedictine colleges, a world-class art collection, and bread people drive four hours to buy. New Norcia is the most surprising day trip in WA.",
