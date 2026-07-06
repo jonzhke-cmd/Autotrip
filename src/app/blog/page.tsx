@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "dwellingup-jarrah-forest-adventure-perth-2026",
+    title: "Dwellingup: Zip Lines, Steam Trains and Jarrah Forest Adventure, 100 km from Perth Airport",
+    excerpt: "Treetop zip lines, a heritage steam train, swimming holes on the Murray River and two of Australia's great long-distance trails \u2014 Dwellingup packs more adventure per kilometre than almost anywhere near Perth Airport.",
+    date: "July 6, 2026",
+    category: "Adventure Day Trips",
+    image: "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "york-wa-day-trip-perth-2026",
     title: "York WA: Western Australia's Oldest Inland Town Is an Hour from the Airport and Worth Every Minute",
     excerpt: "Founded in 1831, York is WA's oldest inland settlement — colonial streetscapes, a world-class motor museum, the Avon River, and excellent cafes just 97 km from Perth Airport.",
