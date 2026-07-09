@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "hillarys-boat-harbour-perth-guide-2026",
+    title: "Hillarys Boat Harbour: AQWA, Dolphin Cruises and Sorrento Quay, 25 Minutes from Perth Airport",
+    excerpt: "A working marina turned family playground — AQWA's underwater tunnel, whale and dolphin watching cruises, a sheltered swimming beach, and sunset seafood on the water. The complete 2026 guide to Hillarys Boat Harbour, 25 minutes from Perth Airport.",
+    date: "July 9, 2026",
+    category: "Perth Attractions",
+    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "dwellingup-jarrah-forest-adventure-perth-2026",
     title: "Dwellingup: Zip Lines, Steam Trains and Jarrah Forest Adventure, 100 km from Perth Airport",
     excerpt: "Treetop zip lines, a heritage steam train, swimming holes on the Murray River and two of Australia's great long-distance trails \u2014 Dwellingup packs more adventure per kilometre than almost anywhere near Perth Airport.",
