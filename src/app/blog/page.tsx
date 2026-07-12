@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "dunsborough-cape-naturaliste-perth-2026",
+    title: "Dunsborough & Cape Naturaliste: The Quiet, Turquoise Side of WA's South West",
+    excerpt: "Turquoise bays, a 1904 lighthouse and land-based whale watching \u2014 Dunsborough and Cape Naturaliste are the calmer, quieter side of WA's South West, 2h40 from Perth Airport.",
+    date: "July 12, 2026",
+    category: "South West Getaways",
+    image: "https://images.unsplash.com/photo-1519046904884-53103b34b206?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "hillarys-boat-harbour-perth-guide-2026",
     title: "Hillarys Boat Harbour: AQWA, Dolphin Cruises and Sorrento Quay, 25 Minutes from Perth Airport",
     excerpt: "A working marina turned family playground — AQWA's underwater tunnel, whale and dolphin watching cruises, a sheltered swimming beach, and sunset seafood on the water. The complete 2026 guide to Hillarys Boat Harbour, 25 minutes from Perth Airport.",
