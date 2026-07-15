@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "bunbury-koombana-bay-dolphins-2026",
+    title: "Bunbury & Koombana Bay: Wild Dolphins, Real Beaches and WA's Underrated Second City",
+    excerpt: "Everyone drives past Bunbury on the way to Margaret River. Wild dolphins at Koombana Bay, a wildlife park inside a wetland, a heritage art gallery and a proper surf beach \u2014 175 km south of Perth Airport and worth a full day of its own.",
+    date: "July 15, 2026",
+    category: "South West Getaways",
+    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "dunsborough-cape-naturaliste-perth-2026",
     title: "Dunsborough & Cape Naturaliste: The Quiet, Turquoise Side of WA's South West",
     excerpt: "Turquoise bays, a 1904 lighthouse and land-based whale watching \u2014 Dunsborough and Cape Naturaliste are the calmer, quieter side of WA's South West, 2h40 from Perth Airport.",
