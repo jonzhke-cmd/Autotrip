@@ -11,6 +11,14 @@ export const metadata: Metadata = {
 
 const articles = [
   {
+    slug: "augusta-cape-leeuwin-lighthouse-2026",
+    title: "Augusta & Cape Leeuwin: Stand Where Two Oceans Meet at the End of the Margaret River Road",
+    excerpt: "Drive 40 minutes past Margaret River and the road ends at Cape Leeuwin \u2014 mainland Australia's tallest lighthouse, where the Indian and Southern Oceans collide. Wild stingrays at Hamelin Bay, Jewel Cave and winter whales in Flinders Bay, 320 km south of Perth Airport.",
+    date: "July 18, 2026",
+    category: "South West Getaways",
+    image: "https://images.unsplash.com/photo-1500375592092-40eb2168fd21?w=800&auto=format&fit=crop&q=80",
+  },
+  {
     slug: "bunbury-koombana-bay-dolphins-2026",
     title: "Bunbury & Koombana Bay: Wild Dolphins, Real Beaches and WA's Underrated Second City",
     excerpt: "Everyone drives past Bunbury on the way to Margaret River. Wild dolphins at Koombana Bay, a wildlife park inside a wetland, a heritage art gallery and a proper surf beach \u2014 175 km south of Perth Airport and worth a full day of its own.",
